@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.NavFlex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ImgBack {
+  background-image: url(/public/teacher.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: auto;
+}
