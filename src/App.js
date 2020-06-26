@@ -12,26 +12,28 @@ function App() {
       <h1>Joe Bernans Portoflio Site</h1>
         <h2>Teacher, Tutor, Theologian</h2>
         <div >
-          <Nav className="navbar navbar-dark bg-primary">
+        
+
+          <Nav className="NavFlex navbar navbar-dark bg-primary">
+
+            <NavItem>
             <Link className="navbar-brand" href="#">Home</Link>
-            
-          <div id="navbarColor01">
-            <ul className="NavFlex navbar-nav mr-auto">
-              <li className="nav-item">
-                <Link className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" href="#">Features</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" href="#">Pricing</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" href="#">About</Link>
-              </li>
-            </ul>
-          </div>
+            </NavItem>
+              <NavItem className="">
+                <Link className="colorWhite" href="#">Home <span className="sr-only">(current)</span></Link>
+              </NavItem>
+              <NavItem className="">
+                <Link className="colorWhite" href="#">Features</Link>
+              </NavItem>
+              <NavItem className="">
+                <Link className="colorWhite" href="#">Pricing</Link>
+              </NavItem>
+              <NavItem className="">
+                <Link className="colorWhite" href="#">About</Link>
+              </NavItem>
+
           </Nav>
+
         </div>
         <Router>
           <Switch>
