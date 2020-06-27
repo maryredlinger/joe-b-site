@@ -38,20 +38,11 @@
 }
 .NavFlex {
   display: flex;
-  
   flex-wrap: wrap;
   flex-direction: row;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-body {
-  background-image: url(/public/teacher.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+.HomeImg{
   max-width: 100%;
   height: auto;
 }
@@ -60,3 +51,10 @@ body {
   color: white;
   font-size: 20px;
 }
+
+.HomeDisplay{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+

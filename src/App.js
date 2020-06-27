@@ -9,8 +9,8 @@ import Home from './pages/Home.js'
 function App() {
   return (
     <div className="App">
-      <h1>Joe Bernans Portoflio Site</h1>
-        <h2>Teacher, Tutor, Theologian</h2>
+      <h1>Joe Bernans</h1>
+        <h3>Teacher, Tutor, Theologian</h3>
         <div >
         
 
