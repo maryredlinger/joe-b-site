@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+.NavFlex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.HomeImg{
+  max-width: 100%;
+  height: auto;
+}
+
+.colorWhite {
+  color: white;
+  font-size: 20px;
+}
+
+.HomeDisplay{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
