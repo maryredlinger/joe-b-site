@@ -1,5 +1,16 @@
+body {
+   background-color: rgb(238, 238, 238);
+  }
 .App {
   text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: white;
+  padding-top: 50px;
+}
+
+.headerPad{
+  padding-bottom: 50px;
 }
 
 .App-logo {
@@ -45,6 +56,7 @@
 .HomeImg{
   max-width: 100%;
   height: auto;
+  padding-top: 0%;
 }
 
 .colorWhite {
@@ -56,5 +68,77 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.Footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(228, 228, 228);
 }
 
+.footerFont {
+  color: white;
+  font-size: 15px;
+}
+
+.homeBox{
+  background-color: rgb(250, 250, 250)  ;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#contact-form{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contactContainer{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.contactName {
+  margin-right: 100px;
+}
+
+.contactTitle {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contactImage{
+  max-width: 210px;
+  max-height: auto;
+}
+
+.contactIcon{
+  max-width: 40px;
+  max-height: auto;
+}
+
+.contactContainerLi{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contactContainer2 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.ContactDisplay{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
