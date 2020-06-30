@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home.js'
 import Contact from './pages/Contact.js'
+import About from './pages/About.js'
  
 
 function App() {
@@ -36,8 +37,8 @@ function App() {
         <Router>
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/about" exact  />
             <Route path="/contact" exact component={Contact} />
+            <Route path="/about" exact component={About} />
           </Switch>
         </Router>
         <br></br>
