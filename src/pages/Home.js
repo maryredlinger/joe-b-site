@@ -4,9 +4,14 @@ import { Nav, NavItem, NavLink as Link } from 'reactstrap';
 
 const Home = () => {
     return(
-        <div className="App">
-            <div>
-                <img className="HomeImg" src="teacher.jpg"></img>
+        <div className="">
+            <div className="background">
+                
+                <div className="transbox">
+                    <h2>Mr. Joseph Bernens, M.A. ED</h2>
+                    <h3>Teacher for 28+ years</h3>
+                    <h3>Fully credentialed including Special Ed.</h3>
+                </div>
             </div>
             <br></br>
             <div className="HomeDisplay">
@@ -26,15 +31,21 @@ const Home = () => {
                     <Link href="/contact">View contact information. →</Link>
                 </span>
             </div>
-            <div className="homeBox">
-                <p>First and foremost, I preach Jesus, my Lord, Savior, and First Teacher. I serve Him by 
-serving His children. My life and ministry are a perpetual gift to Him, and to His Mother, to whom I consecrate this whole endeavor. 
-I teach the curriculum to standard. I teach to mastery, using practice and drill, research and collaborative projects, and a variety of assessments to check for mastery. I remediate when necessary. 
-I endeavor to teach to the whole person, meeting the students’ emotional, mental, psychological, and spiritual needs, employing the help of my colleagues when necessary. 
-Educating the whole student includes citizenship, leadership, and creativity, which allows for exploration, collaboration, teamwork, and problem-solving. I try to provide opportunities for each in my classroom, mindful that citizenship and leadership often are quietly modeled.  
-I communicate and employ clear rubrics on assignments. 
-Students thrive in an environment where they feel safe, boundaries are enforced and respected, and consequences are fairly dispensed. More importantly, I try to create a positive environment where each student’s dignity is respected. 
-</p>
+            <div className="background">
+                <div className="transbox">
+                <h2>Mr. Joseph Bernens, M.A. ED</h2>
+                <h3>Teacher for 28+ years</h3>
+                <h3>Fully credentialed including Special Ed.</h3>
+                <br></br>
+                <h2>SPECIALIZES IN:</h2>
+                
+                    <h4>Math</h4>
+                    <h4>English / Language Arts</h4>
+                    <h4>Reading Skills</h4>
+                    <h4>Study Skills</h4>
+                    <h4>Speech</h4>
+                    <h4>Drama</h4>
+                    </div>
             </div>
         </div>
     )

@@ -3,8 +3,8 @@ body {
   }
 .App {
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: white;
   padding-top: 50px;
 }
@@ -84,11 +84,16 @@ body {
 }
 
 .homeBox{
-  background-color: rgb(250, 250, 250)  ;
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/13/22/12/coffee-3223862_960_720.jpg");
+  opacity: 0.4;
   padding-left: 70px;
   padding-right: 70px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.homeBoxHov{
+  
 }
 
 #contact-form{
@@ -143,4 +148,23 @@ body {
   margin-left: 20px;
   padding-top: 50px;
   padding-bottom: 100px;
+}
+
+div.background {
+  background-image: url("/teacher.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  padding-top: 0%;
+}
+
+div.transbox {
+  margin: 30px;
+  padding`-bottom: 200px;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
 }
