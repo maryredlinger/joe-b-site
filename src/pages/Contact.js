@@ -7,11 +7,12 @@ const Contact = () => {
             
             <div className="contactContainer">
                 <h3>Contact Me</h3>
+                <br></br>
                 <EmailForm/>
             </div>
             <div >
-                <h1>contact info</h1>
-                <br></br>
+                <h3>Contact Information</h3>
+                
                 <div className="contactContainer2">
                     <div className="contactContainerLi">
                         <img className="contactIcon" src="./location.jpg"></img>

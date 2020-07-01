@@ -14,6 +14,8 @@ function App() {
       <div className="headerPad">
         <h1>Joe Bernens</h1>
         <h3>Teacher, Tutor, Theologian</h3>
+      </div>
+      <div>
         < NavBar sticky="top" />
       </div>
         <Router>
