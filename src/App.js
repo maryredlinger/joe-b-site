@@ -1,39 +1,23 @@
 import React from 'react';
 import './App.css'
-import { Nav, NavItem, NavLink as Link } from 'reactstrap';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home.js'
 import Contact from './pages/Contact.js'
 import About from './pages/About.js'
+import NavBar from './pages/NavBar.js'
  
 
 function App() {
   return (
     <div className="App">
       <div className="headerPad">
-        <h1>Joe Bernans</h1>
+        <h1>Joe Bernens</h1>
         <h3>Teacher, Tutor, Theologian</h3>
       </div>
-        <div >
-          <Nav className="NavFlex navbar navbar-dark bg-primary">
-            <NavItem>
-            <Link className="navbar-brand" href="/contact">Joe Bernans</Link>
-            </NavItem>
-              <NavItem className="">
-                <Link className="colorWhite" href="/">Home <span className="sr-only">(current)</span></Link>
-              </NavItem>
-              <NavItem className="">
-                <Link href="/about" className="colorWhite">About</Link>
-              </NavItem>
-              <NavItem className="">
-                <Link href="/courses" className="colorWhite">Courses</Link>
-              </NavItem>
-              <NavItem className="">
-                <Link href="/contact" className="colorWhite">Contact</Link>
-              </NavItem>
-          </Nav>
-        </div>
+      <div>
+        < NavBar sticky="top" />
+      </div>
         <Router>
           <Switch>
             <Route path="/" exact component={Home} />

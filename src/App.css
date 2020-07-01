@@ -93,7 +93,6 @@ body {
 
 #contact-form{
   margin-left: 20px;
-  margin-right: 20px;
 }
 
 .contactContainer{
@@ -117,8 +116,8 @@ body {
 }
 
 .contactIcon{
-  max-width: 40px;
-  max-height: auto;
+  max-width: 30px;
+  max-height: 30px;
 }
 
 .contactContainerLi{
@@ -130,7 +129,10 @@ body {
 .contactContainer2 {
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
   width: 400px;
+  padding-top: 50px;
 }
 
 .ContactDisplay{
