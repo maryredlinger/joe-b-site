@@ -55,8 +55,8 @@ body {
 
 .HomeImg{
   max-width: 100%;
-  height: auto;
-  padding-top: 0%;
+  opacity: 0.5;
+  position: relative;
 }
 
 .colorWhite {
@@ -92,9 +92,6 @@ body {
   margin-right: 20px;
 }
 
-.homeBoxHov{
-  
-}
 
 #contact-form{
   margin-left: 20px;
@@ -150,21 +147,51 @@ body {
   padding-bottom: 100px;
 }
 
-div.background {
-  background-image: url("/teacher.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 100%;
-  height: auto;
-  padding-top: 0%;
-}
 
 div.transbox {
-  margin: 30px;
-  padding`-bottom: 200px;
-  max-width: 100%;
-  height: auto;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.8;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 2em;
 }
+
+.imgContainer{
+  position: relative;
+  text-align: center;
+}
+
+.imgOverlayer{
+  height: 100%;
+  overflow: auto;
+  position: relative, bottom;
+  top: auto;
+}
+.wrapper {
+  position: relative;
+  
+}
+.buttons {
+  
+  height: 200px;
+  top: 50%;
+  left: 50%;
+}
+
+@media screen and (min-width: 48em) {
+  .wrapper:before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 15px 15px;
+  }
+  .buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+  }
+}
+
