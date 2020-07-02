@@ -18,6 +18,7 @@ function App() {
       <div>
         < NavBar sticky="top" />
       </div>
+      
         <Router>
           <Switch>
             <Route path="/" exact component={Home} />

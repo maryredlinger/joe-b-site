@@ -162,21 +162,12 @@ div.transbox {
   text-align: center;
 }
 
-.imgOverlayer{
-  height: 100%;
-  overflow: auto;
-  position: relative, bottom;
-  top: auto;
-}
 .wrapper {
   position: relative;
   
 }
-.buttons {
-  
+.overlayer {
   height: 200px;
-  top: 50%;
-  left: 50%;
 }
 
 @media screen and (min-width: 48em) {
@@ -187,11 +178,11 @@ div.transbox {
     height: 100px;
     margin: 0 0 15px 15px;
   }
-  .buttons {
+  .overlayer {
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 300px;
+    top: 30%;
+    left: 22%;
+    width: 450px;
   }
 }
 
