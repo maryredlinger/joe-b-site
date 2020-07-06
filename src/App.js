@@ -16,7 +16,7 @@ function App() {
         <h3>Teacher, Tutor, Theologian</h3>
       </div>
       <div>
-        < NavBar sticky="top" />
+        < NavBar />
       </div>
       
         <Router>

@@ -8,10 +8,9 @@ const Home = () => {
             <div className="imgContainer">
                 <img src="./teacher.jpg" className="HomeImg wrapper"></img>
                 <div className="imgOverlayer overlayer">
-                    <h2>Mr. Joseph Bernens, M.A. ED</h2>
-                    <h3>Teacher for 28+ years</h3>
-                    <h3>Fully credentialed including Special Ed.</h3>
-                    
+                    <h2 className="homeh2">Mr. Joseph Bernens, M.A. ED</h2>
+                    <h3 className="homeh3">Teacher for 28+ years</h3>
+                    <h3 className="homeh3">Fully credentialed including Special Ed.</h3>
                 </div>
             </div>                
             

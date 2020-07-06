@@ -55,7 +55,7 @@ body {
 
 .HomeImg{
   max-width: 100%;
-  opacity: 0.5;
+  opacity: 0.3;
   position: relative;
 }
 
@@ -181,8 +181,8 @@ div.transbox {
   .overlayer {
     position: absolute;
     top: 30%;
-    left: 22%;
-    width: 450px;
+    left: 11%;
+    width: 600px;
   }
 }
 .phoneNum{
@@ -192,4 +192,12 @@ div.transbox {
 
 .downloadColor{
   color: rgb(22, 91, 168);
+}
+
+.homeh2{
+  font-size: 50px;
+}
+
+.homeh3{
+  font-size: 30px;
 }
