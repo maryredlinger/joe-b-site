@@ -30,6 +30,7 @@
 
 .schoolContainer {
     width: auto;
+
 }
 
 .item {
@@ -40,6 +41,7 @@
     flex-wrap: wrap;
     padding-top: 5px;
     padding-bottom: 5px;
+    width: 100%;
 }
 
 .ed {

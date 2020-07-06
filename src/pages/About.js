@@ -24,21 +24,24 @@ const About = () => {
             <h1 className="ed">- Education -</h1>
             <div className="edContainer">
                 <div className="schoolContainer">
-                    <h1 className="item">College</h1>
-                    <p className="item">Location, Grad year lhahalkhd kaklhasl kjfhklFAH</p>
-                    <p className="item">Degree</p>
+                    <h1 className="item"><a href="https://www.sdsu.edu/"><b>San Diego State University</b></a></h1>
+                    <h3 className="item">San Diego, CA</h3>
+                    <p className="item">Master of Arts in Education, emphasis in Learning Handicaps</p>
+                    <p className="item"> Postgraduate studies in English, emphasis in Drama</p>
+                    <p className="item">College of Education Credential Program</p>
+
                 <br/>
-                    <h1 className="item">College</h1>
-                    <p className="item">Location, Grad year lhahalkhd kaklhasl kjfhklFAH</p>
-                    <p className="item">Degree</p>
+                    <h1 className="item"><a href="https://www.sandiego.edu/"><b>University of San Diego</b></a></h1>
+                    <h3 className="item">San Diego, CA</h3>
+                    <p className="item">Bachelor of Arts in Philosophy, minor in Religious Studies</p>
                 < br/>
-                    <h1 className="item">College</h1>
-                    <p className="item">Location, Grad year lhahalkhd kaklhasl kjfhklFAH</p>
-                    <p className="item">Degree</p>
+                    <h1 className="item"><a href="https://www.fst.edu/"><b>Franciscan School of Theology</b></a></h1>
+                    <h3 className="item">Oceanside, CA</h3>
+                    <p className="item">Masters of Theology *<i> in progress*</i></p>
                 < br/>
-                    <h1 className="item">College</h1>
-                    <p className="item">Location, Grad year lhahalkhd kaklhasl kjfhklFAH</p>
-                    <p className="item">Degree</p>
+                    <h1 className="item"><a href="https://www.csueastbay.edu/"><b>California State University East Bay</b></a></h1>
+                    <h3 className="item">East Bay, CA</h3>
+                    <p className="item">Master's Workshops/ Continuing Education through California Educational Theatre Association and Educational Theatre Association</p>
                 </div>
             </div>
         </div>
