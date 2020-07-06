@@ -76,6 +76,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: rgb(228, 228, 228);
+  margin-top: 50px;
 }
 
 .footerFont {

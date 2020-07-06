@@ -8,6 +8,22 @@
     margin-right: 20px;
 }
 
+.profileTxt {
+    font-size: 17px;
+}
+
+.credentials {
+    margin: 10px;
+    line-height: 20px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    width: 100%;
+    color: #2780e3;
+}
+
 .line-break {
     width: 100%;
     height: 5px;
@@ -46,4 +62,22 @@
 
 .ed {
     align-items: center;
+    padding-top: 70px;
+}
+
+.cred {
+    padding-top: 80px;
+}
+
+.li{
+    align-items: left;
+}
+
+.h1{
+    color: #2780e3;
+
+}
+
+.p {
+    font-size: 19px;
 }
