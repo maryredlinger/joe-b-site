@@ -3,8 +3,8 @@ body {
   }
 .App {
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: white;
   padding-top: 50px;
 }
@@ -55,8 +55,8 @@ body {
 
 .HomeImg{
   max-width: 100%;
-  height: auto;
-  padding-top: 0%;
+  opacity: 0.3;
+  position: relative;
 }
 
 .colorWhite {
@@ -76,6 +76,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: rgb(228, 228, 228);
+  margin-top: 50px;
 }
 
 .footerFont {
@@ -84,12 +85,14 @@ body {
 }
 
 .homeBox{
-  background-color: rgb(250, 250, 250)  ;
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/13/22/12/coffee-3223862_960_720.jpg");
+  opacity: 0.4;
   padding-left: 70px;
   padding-right: 70px;
   margin-left: 20px;
   margin-right: 20px;
 }
+
 
 #contact-form{
   margin-left: 20px;
@@ -138,9 +141,64 @@ body {
 .ContactDisplay{
   display: flex;
   justify-content: space-around;
+  background-color: rgb(239, 239, 250);
   flex-wrap: wrap;
-  margin-right: 20px;
-  margin-left: 20px;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  font-family: 'Pangolin', cursive;
+}
+
+
+div.transbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 2em;
+}
+
+.imgContainer{
+  position: relative;
+  text-align: center;
+}
+
+.wrapper {
+  position: relative;
+  
+}
+.overlayer {
+  height: 200px;
+}
+
+@media screen and (min-width: 48em) {
+  .wrapper:before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 15px 15px;
+  }
+  .overlayer {
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    width: 600px;
+  }
+}
+.phoneNum{
+  max-width: 300px;
+  max-height: 35px;
+}
+
+.downloadColor{
+  color: rgb(22, 91, 168);
+}
+
+.homeh2{
+  font-size: 50px;
+}
+
+.homeh3{
+  font-size: 30px;
 }
