@@ -6,6 +6,11 @@ import Home from './pages/Home.js'
 import Contact from './pages/Contact.js'
 import About from './pages/About.js'
 import NavBar from './pages/NavBar.js'
+
+import English from './pages/English.js'
+import Math from './pages/Math.js'
+import Drama from './pages/Drama.js'
+
  
 
 function App() {
@@ -24,12 +29,15 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path="/contact" exact component={Contact} />
             <Route path="/about" exact component={About} />
+            <Route path="/english_language_arts" exact component={English} />
+            <Route path="/math_social_studies" exact component={Math} />
+            <Route path="/theatre_drama" exact component={Drama} />
           </Switch>
         </Router>
         <br></br>
         <footer>
             <div className="Footer">
-              <h3 className="+footerFont"><a href="/">Home</a></h3>
+              <h3 className="footerFont"><a href="/">Home</a></h3>
               <h3 className="footerFont"><a href="/about">About</a></h3>
               <h3 className="footerFont"><a href="/contact">Contact</a></h3>
             </div>

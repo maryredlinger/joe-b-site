@@ -10,6 +10,7 @@
 
 .profileTxt {
     font-size: 17px;
+    padding-left: 50px;
 }
 
 .credentials {
@@ -22,6 +23,7 @@
     padding-bottom: 9px;
     width: 100%;
     color: #2780e3;
+    line-height: normal;
 }
 
 .line-break {
@@ -58,6 +60,8 @@
     padding-top: 5px;
     padding-bottom: 5px;
     width: 100%;
+    line-height: normal;
+
 }
 
 .ed {
@@ -80,4 +84,28 @@
 
 .p {
     font-size: 19px;
+}
+
+.expContainer {
+    padding-top: 40px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.expContainer {
+    width: auto;
+
+}
+
+.itemExp {
+    margin: 10px;
+    line-height: normal;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
 }
