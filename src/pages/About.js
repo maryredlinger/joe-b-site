@@ -20,8 +20,14 @@ const About = () => {
                     </p>
                 </div>
             </div>
+            <div className="linkContainer">
+                <a target="_blank" href="./resume.pdf">Resume</a>
+                <a href="#credentials">Credentials</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+            </div>
             <hr className="line-break"></hr>
-            <h1 className="cred">- Credentials -</h1>
+            <h1 id="credentials" className="cred">- Credentials -</h1>
             <div className="edContainer">
                 <div className="schoolContainer">
                     <h3 className="credentials">California Clear Single Subject Teaching Credential, English, K-12 California</h3>
@@ -29,7 +35,7 @@ const About = () => {
                     <h3 className="credentials">Clear Specialist Instruction Credential in Special Education, Learning Handicapped</h3>
                 </div>
             </div>
-            <h1 className="ed">- Education -</h1>
+            <h1 id="education" className="ed">- Education -</h1>
             <div className="edContainer">
                 <div className="schoolContainer">
                     <h1 className="item"><a target="_blank" href="https://www.sdsu.edu/"><b>San Diego State University</b></a></h1>
@@ -52,7 +58,7 @@ const About = () => {
                     <p className="item">Master's Workshops/ Continuing Education through California Educational Theatre Association and Educational Theatre Association</p>
                 </div>
             </div>
-            <h1 className="ed">- Experience -</h1>
+            <h1 id="experience" className="ed">- Experience -</h1>
             <div className="expContainer">
                 <div className="expContainer">
                     <h1 className="itemExp h1"><a target="_blank" href="./tutor_owl.pdf"><b>Tutor</b></a></h1>
