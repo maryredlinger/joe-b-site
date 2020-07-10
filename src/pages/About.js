@@ -20,8 +20,14 @@ const About = () => {
                     </p>
                 </div>
             </div>
+            <div className="linkContainer">
+                <a target="_blank" href="./resume.pdf">Resume</a>
+                <a href="#credentials">Credentials</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+            </div>
             <hr className="line-break"></hr>
-            <h1 className="cred">- Credentials -</h1>
+            <h1 id="credentials" className="cred">- Credentials -</h1>
             <div className="edContainer">
                 <div className="schoolContainer">
                     <h3 className="credentials">California Clear Single Subject Teaching Credential, English, K-12 California</h3>
@@ -29,53 +35,61 @@ const About = () => {
                     <h3 className="credentials">Clear Specialist Instruction Credential in Special Education, Learning Handicapped</h3>
                 </div>
             </div>
-            <h1 className="ed">- Education -</h1>
+            <h1 id="education" className="ed">- Education -</h1>
             <div className="edContainer">
                 <div className="schoolContainer">
-                    <h1 className="item"><a href="https://www.sdsu.edu/"><b>San Diego State University</b></a></h1>
+                    <h1 className="item"><a target="_blank" href="https://www.sdsu.edu/"><b>San Diego State University</b></a></h1>
                     <h3 className="item">San Diego, CA</h3>
                     <p className="item">Master of Arts in Education, emphasis in Learning Handicaps</p>
                     <p className="item"> Postgraduate studies in English, emphasis in Drama</p>
                     <p className="item">College of Education Credential Program</p>
 
                 <br/>
-                    <h1 className="item"><a href="https://www.sandiego.edu/"><b>University of San Diego</b></a></h1>
+                    <h1 className="item"><a target="_blank" href="https://www.sandiego.edu/"><b>University of San Diego</b></a></h1>
                     <h3 className="item">San Diego, CA</h3>
                     <p className="item">Bachelor of Arts in Philosophy, minor in Religious Studies</p>
                 < br/>
-                    <h1 className="item"><a href="https://www.fst.edu/"><b>Franciscan School of Theology</b></a></h1>
+                    <h1 className="item"><a target="_blank" href="https://www.fst.edu/"><b>Franciscan School of Theology</b></a></h1>
                     <h3 className="item">Oceanside, CA</h3>
                     <p className="item">Masters of Theology *<i> in progress*</i></p>
                 < br/>
-                    <h1 className="item"><a href="https://www.csueastbay.edu/"><b>California State University East Bay</b></a></h1>
+                    <h1 className="item"><a target="_blank" href="https://www.csueastbay.edu/"><b>California State University East Bay</b></a></h1>
                     <h3 className="item">East Bay, CA</h3>
                     <p className="item">Master's Workshops/ Continuing Education through California Educational Theatre Association and Educational Theatre Association</p>
                 </div>
             </div>
-            <h1 className="ed">- Teaching Experience -</h1>
-            <div className="edContainer">
-                <div className="schoolContainer">
-                    <h1 className="item h1"><b>Tutor</b></h1>
-                    <h3 className="item p">All grade levels, all subjects, specializing in :</h3>
+            <h1 id="experience" className="ed">- Experience -</h1>
+            <div className="expContainer">
+                <div className="expContainer">
+                    <h1 className="itemExp h1"><a target="_blank" href="./tutor_owl.pdf"><b>Tutor</b></a></h1>
+                    <h3 className="itemExp">San Diego, CA</h3>
+                    <h4 className="itemExp">All grade levels, all subjects, specializing in :</h4>
                     <ul>
-                        <li className="item">Math</li>
-                        <li className="item">English / Language Arts</li>
-                        <li className="item">Speech</li>
-                        <li className="item">Study SKills</li>
-                        <li className="item">Acting</li>
+                        <li className="itemExp">Math</li>
+                        <li className="itemExp">English / Language Arts</li>
+                        <li className="itemExp">Speech</li>
+                        <li className="itemExp">Study SKills</li>
+                        <li className="itemExp">Acting</li>
                     </ul>
                 <br/>
-                    <h1 className="item"><a href="https://www.sandiego.edu/"><b>University of San Diego</b></a></h1>
-                    <h3 className="item">San Diego, CA</h3>
-                    <p className="item">Bachelor of Arts in Philosophy, minor in Religious Studies</p>
-                < br/>
-                    <h1 className="item"><a href="https://www.fst.edu/"><b>Franciscan School of Theology</b></a></h1>
-                    <h3 className="item">Oceanside, CA</h3>
-                    <p className="item">Masters of Theology *<i> in progress*</i></p>
-                < br/>
-                    <h1 className="item"><a href="https://www.csueastbay.edu/"><b>California State University East Bay</b></a></h1>
-                    <h3 className="item">East Bay, CA</h3>
-                    <p className="item">Master's Workshops/ Continuing Education through California Educational Theatre Association and Educational Theatre Association</p>
+                    <h1 className="itemExp h1"><a target="_blank" href="http://olshsd.weebly.com/"><b>Our Lady of the Sacred Heart School</b></a></h1>
+                    <h3 className="itemExp">San Diego, CA</h3>
+                    <ul>
+                        <li className="itemExp">8th Grade Homeroom Teacher | 2016 - 2018</li>
+                        <li className="itemExp">6th Grade Homeroom Teacher | 2016 - 2017</li>
+                        <li className="itemExp">Middle School Social Studies | 2016 - 2018</li>
+                        <li className="itemExp">Middle School English | 2018</li>
+                        <li className="itemExp">Middle School Religion | 2016 - 2017</li>
+                    </ul>
+                    <br/>
+                    <h1 className="itemExp h1"><a target="_blank" href="https://www.sahs.org/"><b>St. Augustine High School</b></a></h1>
+                    <h3 className="itemExp">San Diego, CA</h3>
+                    <ul>
+                        <li className="itemExp">Religion Teacher | 1991 - 2015</li>
+                        <li className="itemExp">Theatre Arts Teacher / Program Director | 2009 - 2015</li>
+                        <li className="itemExp">Intersession Teacher | 2009 - 2015</li>
+                        <li className="itemExp">English Teacher | 1991 - 1992</li>
+                    </ul>
                 </div>
             </div>
         </div>

@@ -19,8 +19,8 @@ const Home = () => {
             <div className="HomeDisplay">
                 <span>
                     <h3>-Education & Certifications-</h3>
-                    <Link href="/about-me"><img src="education.png"></img></Link>
-                    <Link href="/about-me">View certifications. →</Link>
+                    <Link href="/about"><img src="education.png"></img></Link>
+                    <Link href="/about">View certifications. →</Link>
                 </span>
                 <span>
                     <h3>-Tutoring Courses & curriculum-</h3>
