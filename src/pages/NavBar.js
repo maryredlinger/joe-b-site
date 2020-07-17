@@ -20,6 +20,7 @@ const NavBar = () => {
                         <NavDropdown.Item href="/english_language_arts">English / Language Arts</NavDropdown.Item>
                         <NavDropdown.Item href="math_social_studies">Math / Social Studies</NavDropdown.Item>
                         <NavDropdown.Item href="theatre_drama">Theatre / Drama</NavDropdown.Item>
+                        <NavDropdown.Item href="study_skills">Study Skills</NavDropdown.Item>
                     </NavDropdown>
                     <NavItem className="">
                         <Link href="/contact" className="colorWhite">Contact</Link>

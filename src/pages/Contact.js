@@ -28,7 +28,7 @@ const Contact = () => {
                     <br></br>
                     <div className="contactContainerLi">
                         <a href="mailto:jbernens.bus@gmail.com.?subject=Coming From Your Website" target="_blank"><img className="contactIcon" src="./email.png"></img></a>
-                        <a href="mailto:jbernens.bus@gmail.com.?subject=Coming From Your Website" target="_blank"><img className="phoneNum" src="./emailpic.png"></img></a>
+                        <a href="mailto:jbernens.bus@gmail.com.?subject=Coming From Your Website" target="_blank"><h3 className="downloadColor">jbernens.bus@gmail.com</h3></a>
                     </div>
                     <br></br>
                     <br></br>
