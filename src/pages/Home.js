@@ -23,7 +23,7 @@ const Home = () => {
                     <Link href="/about">View certifications. →</Link>
                 </span>
                 <span>
-                    <h3>-Tutoring Courses & curriculum-</h3>
+                    <h3>-Tutoring Courses & Curriculum-</h3>
                     <Link href="/curriculum"><img src="curriculum.png"></img></Link>
                     <Link href="/curriculum">View curriculum. →</Link>
                 </span>

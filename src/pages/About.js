@@ -65,11 +65,12 @@ const About = () => {
                     <h3 className="itemExp">San Diego, CA</h3>
                     <h4 className="itemExp">All grade levels, all subjects, specializing in :</h4>
                     <ul>
-                        <li className="itemExp">Math</li>
+                        <li className="itemExp">Algebra</li>
+                        <li className="itemExp">World Religions</li>
                         <li className="itemExp">English / Language Arts</li>
                         <li className="itemExp">Speech</li>
                         <li className="itemExp">Study SKills</li>
-                        <li className="itemExp">Acting</li>
+                        <li className="itemExp">Theatre</li>
                     </ul>
                 <br/>
                     <h1 className="itemExp h1"><a target="_blank" href="http://olshsd.weebly.com/"><b>Our Lady of the Sacred Heart School</b></a></h1>
