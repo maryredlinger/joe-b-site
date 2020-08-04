@@ -11,6 +11,7 @@ import English from './pages/English.js'
 import Math from './pages/Math.js'
 import Drama from './pages/Drama.js'
 import StudySkills from './pages/StudySkills.js'
+import Courses from './pages/Courses.js'
 
  
 
@@ -34,6 +35,7 @@ function App() {
             <Route path="/math_social_studies" exact component={Math} />
             <Route path="/theatre_drama" exact component={Drama} />
             <Route path="/study_skills" exact component={StudySkills} />
+            <Route path="/courses" exact component={Courses} />
           </Switch>
         </Router>
         <br></br>

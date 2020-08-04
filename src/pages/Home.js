@@ -20,17 +20,17 @@ const Home = () => {
                 <span>
                     <h3>-Education & Certifications-</h3>
                     <Link href="/about"><img src="education.png"></img></Link>
-                    <Link href="/about">View certifications. →</Link>
+                    <Link href="/about">View Certifications. →</Link>
                 </span>
                 <span>
                     <h3>-Tutoring Courses & Curriculum-</h3>
-                    <Link href="/curriculum"><img src="curriculum.png"></img></Link>
-                    <Link href="/curriculum">View curriculum. →</Link>
+                    <Link href="/courses"><img src="curriculum.png"></img></Link>
+                    <Link href="/courses">View Courses. →</Link>
                 </span>
                 <span>
                     <h3>-Contact Information-</h3>
                     <Link href="/contact"><img src="contact.png"></img></Link>
-                    <Link href="/contact">View contact information. →</Link>
+                    <Link href="/contact">View Contact Information. →</Link>
                 </span>
             </div>
         </div>
