@@ -19,8 +19,9 @@ function App() {
   return (
     <div className="App">
       <div className="headerPad">
-        <h1>Joe Bernens</h1>
-        <h3>Teacher, Tutor, Theologian</h3>
+        <h1>Mr. Joseph Bernens, M.A. ED</h1>
+        <h3>Teacher & Tutor for 28+ years</h3>
+        <h4>Fully credentialed including Special Ed.</h4>
       </div>
       <div>
         < NavBar />

@@ -8,12 +8,44 @@ const Home = () => {
             <div className="imgContainer">
                 <img src="./teacher.jpg" className="HomeImg wrapper"></img>
                 <div className="imgOverlayer overlayer">
-                    <h2 className="homeh2">Mr. Joseph Bernens, M.A. ED</h2>
-                    <h3 className="homeh3">Teacher for 28+ years</h3>
-                    <h3 className="homeh3">Fully credentialed including Special Ed.</h3>
+                    <h2 className="homeh2">Classes starting September 15, 2020</h2>
+                    <h3 className="homeh3">This school year, I will be offering 2 Literature courses on Tuesday's & Thursday's beginning September 15, 2020 and ending May 27, 2021</h3>
                 </div>
             </div>                
-            
+            <h1 className="topText"><b>Literature Classes</b></h1>
+            <div className="classesBox">
+                <div className="row">
+                <div className="col-md-6 col-sm-12 mt-3">
+                <h4 className="semesterText">1st Semester</h4>
+                    <h2 className="classesText">September 15, 2020 - December 17, 2020</h2>
+                    <br></br>
+                    <h4 className="semesterText">2nd Semester</h4>
+                    <h2 className="classesText">January 5, 2020 - May 27, 2020</h2>
+                </div>
+                <div className="col-md-6 col-sm-12 mt-3 mb-3">
+                <h3 className="classesText">This school year, I will be offering 2 Literature courses on Tuesday's & Thursday's beginning September 15, 2020 and ending May 27, 2021</h3>
+                </div>
+                </div>
+                <button className="classesButton">CONTACT ME</button>
+            </div>
+
+            <h1 className="topText"><b>Tutoring</b></h1>
+            <div className="classesBox">
+                <div className="row">
+                <div className="col-md-6 col-sm-12 mt-3">
+                    <h4>1st Semester</h4>
+                    <h2 className="classesText">September 15, 2020 - December 17, 2020</h2>
+                    <br></br>
+                    <h4>2nd Semester</h4>
+
+                    <h2 className="classesText">January 5, 2020 - May 27, 2020</h2>
+                </div>
+                <div className="col-md-6 col-sm-12 mt-3 mb-3">
+                <h3 className="classesText">This school year, I will be offering 2 Literature courses on Tuesday's & Thursday's beginning September 15, 2020 and ending May 27, 2021</h3>
+                </div>
+                </div>
+                <button className="classesButton">CONTACT ME</button>
+            </div>
             
             <br></br>
             <div className="HomeDisplay">
