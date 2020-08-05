@@ -203,3 +203,42 @@ div.transbox {
 .homeh3{
   font-size: 30px;
 }
+
+.classesBox{
+  background-color: rgb(41, 41, 41, 0.8);
+  margin-right: 46px;
+  margin-left: 46px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.classesText{
+  color: white;
+  font-size: 25px;
+}
+
+.topText{
+  color: rgb(22, 91, 168);
+  padding-top: 35px;
+}
+
+.classesFlex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.classesButton{
+  background-color: rgb(22, 91, 168);
+  border-radius: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.semesterText{
+  color: rgba(255, 255, 255, 0.651);
+}
