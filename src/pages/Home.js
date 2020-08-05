@@ -26,25 +26,23 @@ const Home = () => {
                 <h3 className="classesText">This school year, I will be offering 2 Literature courses on Tuesday's & Thursday's beginning September 15, 2020 and ending May 27, 2021</h3>
                 </div>
                 </div>
-                <button className="classesButton">CONTACT ME</button>
+                <Link href="/courses"><button href="/courses" className="btn btn-primary classesButton">Learn More</button></Link>
             </div>
 
             <h1 className="topText"><b>Tutoring</b></h1>
             <div className="classesBox">
                 <div className="row">
                 <div className="col-md-6 col-sm-12 mt-3">
-                    <h4>1st Semester</h4>
                     <h2 className="classesText">September 15, 2020 - December 17, 2020</h2>
                     <br></br>
-                    <h4>2nd Semester</h4>
 
                     <h2 className="classesText">January 5, 2020 - May 27, 2020</h2>
                 </div>
                 <div className="col-md-6 col-sm-12 mt-3 mb-3">
-                <h3 className="classesText">This school year, I will be offering 2 Literature courses on Tuesday's & Thursday's beginning September 15, 2020 and ending May 27, 2021</h3>
+                <h3 className="classesText">I offer year round tutoring for ages K-12 in multiple sUbjects up to 8th grade and ELA, reading, writing, up to Algebra 1,study skills, publick speaking, and acting for High School  </h3>
                 </div>
                 </div>
-                <button className="classesButton">CONTACT ME</button>
+                <Link href="/tutoring"><button className="btn btn-primary classesButton">Learn More</button></Link>
             </div>
             
             <br></br>
