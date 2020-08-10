@@ -1,7 +1,7 @@
 import React from 'react'
 import { Nav, NavItem, NavLink as Link } from 'reactstrap';
 
-const Courses = () => {
+const Classes = () => {
     return(
         <div>
             <div className="imgContainer">
@@ -34,7 +34,7 @@ const Courses = () => {
                     </div>
                 </div>
                 <br></br>
-                <h3><b>With flexibility to add additional days off,<br></br> the current holidays and times off over these two semesters include</b></h3>
+                <h3><b>With flexibility to add additional days off,<br></br> the current days off over these two semesters include</b></h3>
                 <ul>
                      <h4>November 23, 2020, - November 30, 2020</h4>
                      <h4>December 18, 2020 - January 4,2021</h4>
@@ -47,4 +47,4 @@ const Courses = () => {
     )
 }
 
-export default Courses;
+export default Classes;

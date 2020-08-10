@@ -22,7 +22,7 @@ const NavBar = () => {
                     </NavDropdown>
                     */}
                     <NavDropdown className="colorWhite" title="2020-2021">
-                        <NavDropdown.Item href="/courses">Courses</NavDropdown.Item>
+                        <NavDropdown.Item href="/classes">Classes</NavDropdown.Item>
                         <NavDropdown.Item href="/tutoring">Tutoring</NavDropdown.Item>
                     </NavDropdown>
                     <NavItem className="">
