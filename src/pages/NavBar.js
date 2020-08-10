@@ -6,13 +6,10 @@ const NavBar = () => {
     return(
         <div >
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="/">Joe Bernens</Navbar.Brand>
+                <Navbar.Brand href="/">Home</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="Navflex">
-                    <NavItem className="">
-                        <Link className="colorWhite" href="/">Home <span className="sr-only">(current)</span></Link>
-                    </NavItem>
                     <NavItem className="">
                         <Link href="/about" className="colorWhite">About</Link>
                     </NavItem>

@@ -159,9 +159,28 @@ div.transbox {
   font-size: 2em;
 }
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .imgContainer{
   position: relative;
   text-align: center;
+}
+
+.coursesContainer{
+  position: relative;
+  text-align: center;
+  color: rgb(2, 2, 94);
+}
+
+.coursesImage{
+  max-width: 100%;
+  height: auto;
+  opacity: 0.5;
 }
 
 .wrapper {
@@ -169,7 +188,7 @@ div.transbox {
   
 }
 .overlayer {
-  height: 200px;
+  height: 270px;
 }
 
 @media screen and (min-width: 48em) {
@@ -183,8 +202,9 @@ div.transbox {
   .overlayer {
     position: absolute;
     top: 30%;
-    left: 11%;
-    width: 600px;
+    margin-right: 150px;
+    margin-left: 150px;
+    width: auto;
   }
 }
 .phoneNum{
@@ -241,4 +261,26 @@ div.transbox {
 }
 .semesterText{
   color: rgba(255, 255, 255, 0.651);
+}
+
+.coursesBody{
+  background-color: rgb(41, 41, 41, 0.1);
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.coursesText{
+  color: black;
+  font-size: 25px;
+}
+
+.coursesText2{
+  text-align: left;
+  margin-right: 100px;
+  margin-left: 100px;
 }
