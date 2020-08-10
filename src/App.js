@@ -14,6 +14,8 @@ import StudySkills from './pages/StudySkills.js'
 import Classes from './pages/Classes.js'
 import Tutoring from './pages/Tutoring.js'
 
+import TestForm from './TestForm.js'
+
  
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
       
         <Router>
           <Switch>
+            <Route path="/test" exact component={TestForm} />
+
             <Route path="/" exact component={Home} />
             <Route path="/contact" exact component={Contact} />
             <Route path="/about" exact component={About} />
