@@ -24,9 +24,9 @@ const Home = () => {
                 </div>
                 <div className="col-md-6 col-sm-12 mt-3 mb-3">
                 <br />
-                <h2 className="classesText"><li><b>Introduction to Literature and Composition</b></li></h2>
+                <Link href="/courses"><h2 className="classesText"><li><b>Introduction to Litrature and Composition</b></li></h2></Link>
                 <br />
-                <h3 className="classesText"><li><b>American Literature</b></li></h3>
+                <Link href="/courses"><h3 className="classesText"><li><b>American Literature</b></li></h3></Link>
                 
                 
             
