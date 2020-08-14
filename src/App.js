@@ -6,6 +6,7 @@ import Home from './pages/Home.js'
 import Contact from './pages/Contact.js'
 import About from './pages/About.js'
 import NavBar from './pages/NavBar.js'
+import ContactUS from './pages/ContactUs.js'
 
 import English from './pages/English.js'
 import Math from './pages/Math.js'
@@ -13,6 +14,9 @@ import Drama from './pages/Drama.js'
 import StudySkills from './pages/StudySkills.js'
 import Courses from './pages/Courses.js'
 import Tutoring from './pages/Tutoring.js'
+import ContactUs from './pages/ContactUs';
+
+
 
  
 
@@ -39,6 +43,7 @@ function App() {
             <Route path="/study_skills" exact component={StudySkills} />
             <Route path="/courses" exact component={Courses} />
             <Route path="/tutoring" exact component={Tutoring} />
+            <Route path="/contact_us" exact component={ContactUs} />
           </Switch>
         </Router>
         <br></br>
