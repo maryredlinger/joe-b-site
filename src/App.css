@@ -290,7 +290,10 @@ div.transbox {
 .textsStyle {
   align-items: left;
 }
-
+.imgContainer{
+  position: relative;
+  text-align: center;
+}
 .btnFlex{
   display: flex;
   justify-content: space-around;

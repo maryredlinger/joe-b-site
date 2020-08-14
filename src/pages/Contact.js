@@ -5,11 +5,11 @@ const Contact = () => {
     return(
         <div className="ContactDisplay">
             
-            <div className="contactContainer">
+            {/*<div className="contactContainer">
                 <h3>Contact Me</h3>
                 <br></br>
                 <EmailForm/>
-            </div>
+            </div>*/}
             <div >
                 <h3>Contact Information</h3>
                 
