@@ -5,11 +5,30 @@ const Contact = () => {
     return(
         <div className="ContactDisplay">
             
-            {/*<div className="contactContainer">
-                <h3>Contact Me</h3>
+            <div className="contactContainer">
+               {/* <h3>Contact Me</h3>
                 <br></br>
-                <EmailForm/>
-            </div>*/}
+                <EmailForm/>*/}
+
+                <h3>Email me to sign up for<br /> a course or tutoring</h3>
+                <br /> <br />
+                <div className="listItems">
+                    <h4>When signing up for a class, please include:</h4>
+                    <li>Your name and students name(s)</li>
+                    <li>Contact information</li>
+                    <li>Which class you would like to sign up for</li>
+                    <li>Your students age(s) and grade(s)</li>
+                </div>
+                <br /><br />
+                <div className="listItems">
+                    <h4>When signing up for tutoring, please include:</h4>
+                    <li>Your name and students name</li>
+                    <li>Contact information</li>
+                    <li>Which subject you would like to sign up for</li>
+                    <li>Your students age(s) and grade(s)</li>
+                </div>
+
+            </div>
             <div >
                 <h3>Contact Information</h3>
                 

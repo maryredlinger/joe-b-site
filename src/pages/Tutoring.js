@@ -18,7 +18,7 @@ const Tutoring = () => {
             <div id="k-8" >
                 <h1><b>K - 8th Grade Private Tutoring</b></h1>
                 <h4>Monday - Friday</h4>
-                <h4>September 15, 2020 - May 27, 2021</h4>
+                <h4>September 10, 2020 - May 27, 2021</h4>
                 <br></br>
                 <div className="coursesBody">
                 <h1 className="coursesText coursesText2"><b>Available tutoring courses</b></h1><br></br>
@@ -47,7 +47,7 @@ const Tutoring = () => {
             <div id="9-12" >
                 <h1><b>9th - 12th Grade Private Tutoring</b></h1>
                 <h4>Monday - Friday</h4>
-                <h4>September 15, 2020 - May 27, 2021</h4>
+                <h4>September 10, 2020 - May 27, 2021</h4>
                 <br></br>
                 <div className="coursesBody">
                 <h1 className="coursesText coursesText2"><b>Available tutoring courses</b></h1><br></br>

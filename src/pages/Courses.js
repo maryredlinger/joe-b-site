@@ -17,12 +17,12 @@ const Courses = () => {
             <br></br>
             <div >
                 <h1><b>Tuesday's & Thursday's Literature Courses</b></h1>
-                <h4>September 15, 2020 - December 17, 2021</h4>
+                <h4>September 10, 2020 - December 17, 2021</h4>
                 <h4>&</h4>
                 <h4>January 5, 2021 - May 27, 2021</h4>
                 <br></br>
                 <div id="introduction" className="coursesBody">
-                    <h1><b>Introduction to Literature and Composition</b></h1>
+                    <h1 className="blue"><b>Introduction to Literature and Composition</b></h1>
                     <br />
                     <h3><b>This year-long survey of literature  features short stories, poetry, novels and drama. While effectively annotating texts and examining literary devices, students will practice writing fundamentals. Critical writing will include analytical essays, creative writing, reflective writing, use of MLA Style. Includes grammar review.</b></h3> <br /> <br />
                 <h1 className="coursesText coursesText2 bigFont"><b>What we will cover</b></h1>
@@ -65,7 +65,7 @@ const Courses = () => {
                 </div>
 
                 <div id="american" className="coursesBody">
-                <h1><b>American Literature</b></h1>
+                <h1 className="blue"><b>American Literature</b></h1>
                     <br />
                     <h3><b>This yearlong course surveys American literature through its literary periods. Through effective annotation of texts and examination of literary devices, students will engage in writing. Critical writing will include analytical essays, creative writing, reflective writing, use of MLA Style. </b></h3><br /><br />
                 <h1 className="coursesText coursesText2 bigFont"><b>What we will cover</b></h1>

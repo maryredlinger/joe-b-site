@@ -6,25 +6,27 @@ const About = () => {
         <div className="container">
             < br />
             <div className="row">
-                <div className="col-md-4 col-sm-12 mt-3">
+               {/* <div className="col-md-4 col-sm-12 mt-3">
                     <img className="profileImg" src="./profile.png"/>
-                </div>
-                <div className="col-md-8 col-sm-12 mt-3 mb-3">
-                    <p className="profileTxt">First and foremost, I preach Jesus, my Lord, Savior, and First Teacher. I serve Him by 
-                    serving His children. My life and ministry are a perpetual gift to Him, and to His Mother, to whom I consecrate this whole endeavor. 
+    </div>
+    <div className="col-md-8 col-sm-12 mt-3 mb-3">*/}
+                    <div>
+                    <br /><br />
+                    <h3 className="profileTxt">First and foremost, I preach Jesus, my Lord, Savior, and First Teacher. I serve Him by 
+                    serving His children. My life and ministry are a perpetual gift to Him, and to His Mother, to whom I consecrate this whole endeavor. <br /><br />
                     I teach the curriculum to standard. I teach to mastery, using practice and drill, research and collaborative projects, and a variety of assessments to check for mastery. I remediate when necessary. 
-                    I endeavor to teach to the whole person, meeting the students’ emotional, mental, psychological, and spiritual needs, employing the help of my colleagues when necessary. 
-                    Educating the whole student includes citizenship, leadership, and creativity, which allows for exploration, collaboration, teamwork, and problem-solving. I try to provide opportunities for each in my classroom, mindful that citizenship and leadership often are quietly modeled.  
+                    I endeavor to teach to the whole person, meeting the students’ emotional, mental, psychological, and spiritual needs, employing the help of my colleagues when necessary.<br /><br /> 
+                    Educating the whole student includes citizenship, leadership, and creativity, which allows for exploration, collaboration, teamwork, and problem-solving. I try to provide opportunities for each in my classroom, mindful that citizenship and leadership often are quietly modeled.  <br /><br />
                     I communicate and employ clear rubrics on assignments. 
                     Students thrive in an environment where they feel safe, boundaries are enforced and respected, and consequences are fairly dispensed. More importantly, I try to create a positive environment where each student’s dignity is respected. 
-                    </p>
+                    </h3>
                 </div>
             </div>
             <div className="linkContainer">
-                <a target="_blank" href="./resume.pdf">Resume</a>
-                <a href="#credentials">Credentials</a>
-                <a href="#education">Education</a>
-                <a href="#experience">Experience</a>
+                <a target="_blank" href="./resume.pdf"><h3>Resume</h3></a>
+                <a href="#credentials"><h3>Credentials</h3></a>
+                <a href="#education"><h3>Education</h3></a>
+                <a href="#experience"><h3>Experience</h3></a>
             </div>
             <hr className="line-break"></hr>
             <h1 id="credentials" className="cred">- Credentials -</h1>
