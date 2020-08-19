@@ -5,8 +5,10 @@ const About = () => {
     return(
         <div className="container">
             < br />
+            <div>
+            {/*
             <div className="row">
-               {/* <div className="col-md-4 col-sm-12 mt-3">
+                <div className="col-md-4 col-sm-12 mt-3">
                     <img className="profileImg" src="./profile.png"/>
     </div>
     <div className="col-md-8 col-sm-12 mt-3 mb-3">*/}
@@ -24,13 +26,13 @@ const About = () => {
             </div>
             <div className="linkContainer">
                 <a target="_blank" href="./resume.pdf"><h3>Resume</h3></a>
-                <a href="#credentials"><h3>Credentials</h3></a>
-                <a href="#education"><h3>Education</h3></a>
-                <a href="#experience"><h3>Experience</h3></a>
+                <a href="/about/#credentials"><h3>Credentials</h3></a>
+                <a href="/about/#education"><h3>Education</h3></a>
+                <a href="/about/#experience"><h3>Experience</h3></a>
             </div>
             <hr className="line-break"></hr>
             <h1 id="credentials" className="cred">- Credentials -</h1>
-            <div className="edContainer">
+            <div className="expContainer">
                 <div className="schoolContainer">
                     <h3 className="credentials">California Clear Single Subject Teaching Credential, English, K-12 California</h3>
                     <br />
@@ -38,7 +40,7 @@ const About = () => {
                 </div>
             </div>
             <h1 id="education" className="ed">- Education -</h1>
-            <div className="edContainer">
+            <div className="expContainer">
                 <div className="schoolContainer">
                     <h1 className="item"><a target="_blank" href="https://www.sdsu.edu/"><b>San Diego State University</b></a></h1>
                     <h3 className="item">San Diego, CA</h3>
@@ -61,7 +63,7 @@ const About = () => {
                 </div>
             </div>
             <h1 id="experience" className="ed">- Experience -</h1>
-            <div className="expContainer">
+            
                 <div className="expContainer">
                     <h1 className="itemExp h1"><a target="_blank" href="./tutor_owl.pdf"><b>Tutor</b></a></h1>
                     <h3 className="itemExp">San Diego, CA</h3>
@@ -94,7 +96,7 @@ const About = () => {
                         <li className="itemExp">English Teacher | 1991 - 1992</li>
                     </ul>
                 </div>
-            </div>
+            
         </div>
     )
 }

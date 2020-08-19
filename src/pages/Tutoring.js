@@ -7,8 +7,8 @@ const Tutoring = () => {
             <div className="imgContainer">
                 <img className="coursesImage" src="/tutor.jpg"></img>
                 <div className="btnFlex">
-                <Link href="#k-8"><button className="btnTop btn btn-primary">K-8th Grade <br />Private Tutoring</button></Link>
-                <Link href="#9-12"><button className="btn btn-primary btnTop">9-12th Grade <br />Private Tutoring</button></Link>
+                <Link href="/tutoring/#k-8"><button className="btnTop btn btn-primary">K-8th Grade <br />Private Tutoring</button></Link>
+                <Link href="/tutoring/#9-12"><button className="btn btn-primary btnTop">9-12th Grade <br />Private Tutoring</button></Link>
                 
                 <Link href="/contact"><button className="btnTop btn btn-primary">Contact Me to Sign Up</button></Link>
                 </div>
@@ -21,7 +21,7 @@ const Tutoring = () => {
                 <h4>September 10, 2020 - May 27, 2021</h4>
                 <br></br>
                 <div className="coursesBody">
-                <h1 className="coursesText coursesText2"><b>Available tutoring courses</b></h1><br></br>
+                <h1 className=" coursesText2">Available tutoring subjects</h1><br></br>
                 <div className="row">
                 <div className="col-md-6 col-sm-12 mt-3">
                         <h4 className="coursesText2">✓ English Language Arts</h4>
@@ -50,7 +50,7 @@ const Tutoring = () => {
                 <h4>September 10, 2020 - May 27, 2021</h4>
                 <br></br>
                 <div className="coursesBody">
-                <h1 className="coursesText coursesText2"><b>Available tutoring courses</b></h1><br></br>
+                <h1 className=" coursesText2">Available tutoring subjects</h1><br></br>
                 <div className="row">
                     <div className="col-md-6 col-sm-12 mt-3">
                         <h4 className="coursesText2">✓ English Language Arts</h4>
@@ -59,7 +59,7 @@ const Tutoring = () => {
                     </div>
                     <div className="col-md-6 col-sm-12 mt-3 mb-3">
                         <h4 className="coursesText2">✓ Math up to Algebra 1</h4>
-                        <h4 className="coursesText2">✓ Acting Coaching and Public Speaking</h4>
+                        <h4 className="coursesText2">✓ Acting, Coaching, and Public Speaking</h4>
                         <h4 className="coursesText2">✓ Study Skills</h4>
                     </div>
                 </div>

@@ -10,13 +10,13 @@ const Contact = () => {
                 <br></br>
                 <EmailForm/>*/}
 
-                <h3>Email me to sign up for<br /> a course or tutoring</h3>
+                <h3>Email me to sign up for<br />  a class or tutoring</h3>
                 <br /> <br />
                 <div className="listItems">
                     <h4>When signing up for a class, please include:</h4>
                     <li>Your name and students name(s)</li>
                     <li>Contact information</li>
-                    <li>Which class you would like to sign up for</li>
+                    <li>Which course you would like to sign up for</li>
                     <li>Your students age(s) and grade(s)</li>
                 </div>
                 <br /><br />

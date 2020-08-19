@@ -1,14 +1,14 @@
 import React from 'react'
 import { Nav, NavItem, NavLink as Link } from 'reactstrap';
 
-const Courses = () => {
+const Classes = () => {
     return(
         <div>
             <div className="imgContainer">
                 <img className="coursesImage" src="/courses.jpg"></img>
                     <div className="btnFlex">
-                <Link href="#introduction"><button className="btnTop btn btn-primary">Introduction to <br />Literature and Composition</button></Link>
-                <Link href="#american"><button className="btn btn-primary btnTop">American Literature</button></Link>
+                <Link href="/classes/#introduction"><button className="btnTop btn btn-primary">Introduction to <br />Literature and Composition</button></Link>
+                <Link href="/classes/#american"><button className="btn btn-primary btnTop">American Literature</button></Link>
                 
                 <Link href="/contact"><button className="btnTop btn btn-primary">Contact Me to Sign Up</button></Link>
                 </div>
@@ -16,16 +16,16 @@ const Courses = () => {
             <br></br>
             <br></br>
             <div >
-                <h1><b>Tuesday's & Thursday's Literature Courses</b></h1>
-                <h4>September 10, 2020 - December 17, 2021</h4>
+                <h1><b>Tuesday's & Thursday's Literature Classes</b></h1>
+                <h4>September 10, 2020 - December 17, 2020</h4>
                 <h4>&</h4>
                 <h4>January 5, 2021 - May 27, 2021</h4>
                 <br></br>
                 <div id="introduction" className="coursesBody">
                     <h1 className="blue"><b>Introduction to Literature and Composition</b></h1>
-                    <br />
-                    <h3><b>This year-long survey of literature  features short stories, poetry, novels and drama. While effectively annotating texts and examining literary devices, students will practice writing fundamentals. Critical writing will include analytical essays, creative writing, reflective writing, use of MLA Style. Includes grammar review.</b></h3> <br /> <br />
-                <h1 className="coursesText coursesText2 bigFont"><b>What we will cover</b></h1>
+                    
+                    <h4>This year-long survey of literature  features short stories, poetry, novels and drama. While effectively annotating texts and examining literary devices, students will practice writing fundamentals. Critical writing will include analytical essays, creative writing, reflective writing, use of MLA Style. Includes grammar review.</h4> <br /> <br />
+                <h2 className=" coursesText2 ">What we will cover</h2>
                 <div className="row">
                     <div className="col-md-6 col-sm-12 mt-3">
                         <h4 className="coursesText2">✓ Short Stories & Poetry</h4>
@@ -42,15 +42,15 @@ const Courses = () => {
                 </div>
                 <br />
                 <div className="coursesText2">
-                    <h1><b>Texts</b></h1>
+                    <h2>Texts</h2>
                     <br />
-                    <h3><li>Campbell, Janice, <i>Introduction to Literature: English 1</i></li></h3>
+                    <h4><li>Campbell, Janice, <i>Introduction to Literature: English 1</i></li></h4>
                     <Link href="https://everydayeducation.com/products/e1-introduction-to-literature-english-1"><button className="btn btn-primary">View Book Online Here</button></Link>
-                    <h3><li>Hanbury King,<i> Writing Skills Book 3, Grades 9-12,</i> Educators Publishing Service, Inc.</li></h3>
-                    <h3><li>Warriner's English Grammer and COmposition, 4th Level, 1977 edition.</li></h3>
+                    <h4><li>Hanbury King,<i> Writing Skills Book 3, Grades 9-12,</i> Educators Publishing Service, Inc.</li></h4>
+                    <h4><li>Warriner's English Grammer and Composition, 4th Level, 1977 edition.</li></h4>
                     <br />
-                    <h3>ISBN-13: 978-0153119033</h3>
-                    <h3>ISBN-10: 978-0153119039</h3>
+                    <h4>ISBN-13: 978-0153119033</h4>
+                    <h4>ISBN-10: 978-0153119039</h4>
                 </div>
                 <br></br>
                 <br />
@@ -67,8 +67,8 @@ const Courses = () => {
                 <div id="american" className="coursesBody">
                 <h1 className="blue"><b>American Literature</b></h1>
                     <br />
-                    <h3><b>This yearlong course surveys American literature through its literary periods. Through effective annotation of texts and examination of literary devices, students will engage in writing. Critical writing will include analytical essays, creative writing, reflective writing, use of MLA Style. </b></h3><br /><br />
-                <h1 className="coursesText coursesText2 bigFont"><b>What we will cover</b></h1>
+                    <h4>This yearlong course surveys American literature through its literary periods. Through effective annotation of texts and examination of literary devices, students will engage in writing. Critical writing will include analytical essays, creative writing, reflective writing, use of MLA Style.</h4><br /><br />
+                <h2 className=" coursesText2 ">What we will cover</h2>
                 <div className="row">
                     <div className="col-md-6 col-sm-12 mt-3">
                         <h4 className="coursesText2">✓ American Literature</h4>
@@ -84,9 +84,9 @@ const Courses = () => {
                 <br></br>
                 <br />
                 <div className="coursesText2">
-                    <h1><b>Texts</b></h1>
+                    <h2>Texts</h2>
                     <br />
-                    <h3><li>Campbell, Janice, <i>American Literature: English 3</i></li></h3>
+                    <h4><li>Campbell, Janice, <i>American Literature: English 3</i></li></h4>
                     <Link href="https://everydayeducation.com/products/e3-american-literature-english-3"><button className="btn btn-primary">View Book Online Here</button></Link>
                 </div>
                 <br></br>
@@ -106,4 +106,4 @@ const Courses = () => {
     )
 }
 
-export default Courses;
+export default Classes;
