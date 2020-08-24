@@ -6,12 +6,28 @@ const Contact = () => {
         <div className="ContactDisplay">
             
             <div className="contactContainer">
-                <h3>Contact Me</h3>
+               {/* <h3>Contact Me</h3>
                 <br></br>
-                <EmailForm/>
+                <EmailForm/>*/}
+                <h2>Registering for a Course<br/>or<br/>Tutor Availability</h2>
+                <br/><br/>
+                <h5>Download either the Word Doc. file or the PDF verion</h5>
+                <h5>Fill out the form and attach it to your email</h5>
+                <h5>Send email to <a href="mailto:jbernens.bus@gmail.com.?subject=Coming From Your Website" target="_blank">jbernens.bus@gmail.com</a></h5>
+                <div className="downloadBox">
+                    <a href="/registration_form.pdf" download><img className="download" src="/download.png"/></a>
+                    <a href="/registration_form.docx" download><img className="download" src="/word_doc.ico"/></a>
+                    <h3>Download Course<br/>Registration Form</h3>
+                </div>
+                <div className="downloadBox">
+                <a href="/tutor_form.pdf" download><img className="download" src="/download.png"/></a>
+                    <a href="/tutor_form.docx" download><img className="download" src="/word_doc.ico"/></a>
+                    <h3>Download Tutor<br/>Availability Form</h3>
+                </div>
+
             </div>
             <div >
-                <h3>Contact Information</h3>
+                <h2>Contact Information</h2>
                 
                 <div className="contactContainer2">
                     <div className="contactContainerLi">
@@ -32,12 +48,6 @@ const Contact = () => {
                     </div>
                     <br></br>
                     <br></br>
-                    <div className="contactContainerLi">
-                        <a href="./tutor_owl.pdf" target="_blank">
-                        <img className="contactIcon" src="./download.png"></img></a>
-                        <a href="./tutor_owl.pdf" target="_blank">
-                        <h3 className="downloadColor">Download Tutor Flyer</h3></a>
-                    </div>
                     
                 </div>
             </div>

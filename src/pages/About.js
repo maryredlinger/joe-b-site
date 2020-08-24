@@ -1,34 +1,40 @@
 import React from 'react';
 import '../styles/About.css'
+import { NavLink as Link } from 'reactstrap';
+
 
 const About = () => {
     return(
         <div className="container">
             < br />
+            <div>
+            {/*
             <div className="row">
                 <div className="col-md-4 col-sm-12 mt-3">
                     <img className="profileImg" src="./profile.png"/>
-                </div>
-                <div className="col-md-8 col-sm-12 mt-3 mb-3">
-                    <p className="profileTxt">First and foremost, I preach Jesus, my Lord, Savior, and First Teacher. I serve Him by 
-                    serving His children. My life and ministry are a perpetual gift to Him, and to His Mother, to whom I consecrate this whole endeavor. 
-                    I teach the curriculum to standard. I teach to mastery, using practice and drill, research and collaborative projects, and a variety of assessments to check for mastery. I remediate when necessary. 
-                    I endeavor to teach to the whole person, meeting the students’ emotional, mental, psychological, and spiritual needs, employing the help of my colleagues when necessary. 
-                    Educating the whole student includes citizenship, leadership, and creativity, which allows for exploration, collaboration, teamwork, and problem-solving. I try to provide opportunities for each in my classroom, mindful that citizenship and leadership often are quietly modeled.  
-                    I communicate and employ clear rubrics on assignments. 
-                    Students thrive in an environment where they feel safe, boundaries are enforced and respected, and consequences are fairly dispensed. More importantly, I try to create a positive environment where each student’s dignity is respected. 
-                    </p>
+    </div>
+    <div className="col-md-8 col-sm-12 mt-3 mb-3">*/}
+                    <div className="expContainer">
+                        <h1 className="blue2"><b>Athanasius Academia</b></h1>
+                        <h4 className="blue2"> - San Diego CA -</h4>
+                        <h3 className="itemExp">Athanasius Academia offers homeschooling families tutoring and courses to supplement their studies.  It provides a safe environment that engages students and encourages them strive for excellence.  Classes meet graduation standards of California.  I partner with the parent to ensure the class is tailored to meet their child’s needs. Classes are offered both in the home and/or online.  <h4><a href="/classes"><i>Please see the Offerings - Classes Tab for current offerings.</i></a></h4></h3>
+                        <br />
+                    </div>
+                    <div className="expContainer">
+                        <h1 className="blue2"><b>About My Namesake</b></h1>
+
+                        <h3 className="itemExp">St. Athanasius was a strong leader and bishop of the 4th century Church. He stood for the truth. He was present at the Council of Nicaea, called by the Emperor Constantine in 325 A.D., where he spoke eloquently against the heresy of Arianism.  Athanasius’ fortitude is an inspiration to me and for my work as a teacher.</h3>
+                        <br/><br/>
                 </div>
             </div>
             <div className="linkContainer">
-                <a target="_blank" href="./resume.pdf">Resume</a>
-                <a href="#credentials">Credentials</a>
-                <a href="#education">Education</a>
-                <a href="#experience">Experience</a>
+                <a href="/about/#credentials"><h3>Credentials</h3></a>
+                <a href="/about/#education"><h3>Education</h3></a>
+                <a href="/about/#experience"><h3>Experience</h3></a>
             </div>
             <hr className="line-break"></hr>
             <h1 id="credentials" className="cred">- Credentials -</h1>
-            <div className="edContainer">
+            <div className="expContainer">
                 <div className="schoolContainer">
                     <h3 className="credentials">California Clear Single Subject Teaching Credential, English, K-12 California</h3>
                     <br />
@@ -36,63 +42,26 @@ const About = () => {
                 </div>
             </div>
             <h1 id="education" className="ed">- Education -</h1>
-            <div className="edContainer">
+            <div className="expContainer">
                 <div className="schoolContainer">
                     <h1 className="item"><a target="_blank" href="https://www.sdsu.edu/"><b>San Diego State University</b></a></h1>
                     <h3 className="item">San Diego, CA</h3>
-                    <p className="item">Master of Arts in Education, emphasis in Learning Handicaps</p>
-                    <p className="item"> Postgraduate studies in English, emphasis in Drama</p>
-                    <p className="item">College of Education Credential Program</p>
+                    <p className="item">Master of Arts in Education</p>
 
                 <br/>
                     <h1 className="item"><a target="_blank" href="https://www.sandiego.edu/"><b>University of San Diego</b></a></h1>
                     <h3 className="item">San Diego, CA</h3>
-                    <p className="item">Bachelor of Arts in Philosophy, minor in Religious Studies</p>
-                < br/>
-                    <h1 className="item"><a target="_blank" href="https://www.fst.edu/"><b>Franciscan School of Theology</b></a></h1>
-                    <h3 className="item">Oceanside, CA</h3>
-                    <p className="item">Masters of Theology *<i> in progress*</i></p>
-                < br/>
-                    <h1 className="item"><a target="_blank" href="https://www.csueastbay.edu/"><b>California State University East Bay</b></a></h1>
-                    <h3 className="item">East Bay, CA</h3>
-                    <p className="item">Master's Workshops/ Continuing Education through California Educational Theatre Association and Educational Theatre Association</p>
+                    <p className="item">Bachelor of Arts in Philosophy</p>
                 </div>
             </div>
             <h1 id="experience" className="ed">- Experience -</h1>
-            <div className="expContainer">
                 <div className="expContainer">
-                    <h1 className="itemExp h1"><a target="_blank" href="./tutor_owl.pdf"><b>Tutor</b></a></h1>
-                    <h3 className="itemExp">San Diego, CA</h3>
-                    <h4 className="itemExp">All grade levels, all subjects, specializing in :</h4>
-                    <ul>
-                        <li className="itemExp">Algebra</li>
-                        <li className="itemExp">World Religions</li>
-                        <li className="itemExp">English / Language Arts</li>
-                        <li className="itemExp">Speech</li>
-                        <li className="itemExp">Study SKills</li>
-                        <li className="itemExp">Theatre</li>
-                    </ul>
-                <br/>
-                    <h1 className="itemExp h1"><a target="_blank" href="http://olshsd.weebly.com/"><b>Our Lady of the Sacred Heart School</b></a></h1>
-                    <h3 className="itemExp">San Diego, CA</h3>
-                    <ul>
-                        <li className="itemExp">8th Grade Homeroom Teacher | 2016 - 2018</li>
-                        <li className="itemExp">6th Grade Homeroom Teacher | 2016 - 2017</li>
-                        <li className="itemExp">Middle School Social Studies | 2016 - 2018</li>
-                        <li className="itemExp">Middle School English | 2018</li>
-                        <li className="itemExp">Middle School Religion | 2016 - 2017</li>
-                    </ul>
-                    <br/>
-                    <h1 className="itemExp h1"><a target="_blank" href="https://www.sahs.org/"><b>St. Augustine High School</b></a></h1>
-                    <h3 className="itemExp">San Diego, CA</h3>
-                    <ul>
-                        <li className="itemExp">Religion Teacher | 1991 - 2015</li>
-                        <li className="itemExp">Theatre Arts Teacher / Program Director | 2009 - 2015</li>
-                        <li className="itemExp">Intersession Teacher | 2009 - 2015</li>
-                        <li className="itemExp">English Teacher | 1991 - 1992</li>
-                    </ul>
+                    <h2 className="itemExp blue2"><b>28+&nbsp;</b> years of teaching Middle and High School students</h2>
+                    <h2 className="itemExp blue2"><b>18+&nbsp;</b> years teaching and directing theatre</h2>
+                    <h2 className="itemExp blue2"><b>2&nbsp;</b> years of tutoring</h2>
+                    <h2 className="itemExp blue2"><b>2&nbsp;</b>years of homeschool involvement</h2>
                 </div>
-            </div>
+            
         </div>
     )
 }
