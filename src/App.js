@@ -21,10 +21,14 @@ import Tutoring from './pages/Tutoring.js'
 function App() {
   return (
     <div className="App">
-      <div className="headerPad">
+      {/*<div className="headerPad">
         <h1>Mr. Joseph Bernens, M.A. ED</h1>
         <h3>Teacher & Tutor for 28+ years</h3>
         <h4>Fully credentialed including Special Ed.</h4>
+  </div>*/}
+      <div className="headerPad">
+        <h1>Athanasius Academia</h1>
+        <h4>Supporting Families - Educating Children</h4>
       </div>
       <div>
         < NavBar />

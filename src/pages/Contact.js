@@ -11,16 +11,17 @@ const Contact = () => {
                 <EmailForm/>*/}
                 <h2>Registering for a Course<br/>or<br/>Tutor Availability</h2>
                 <br/><br/>
-                <h5>Download either the Word Doc. file or the PDF verion</h5>
-                <h5>Fill out the form and attach it to your email</h5>
-                <h5>Send email to <a href="mailto:jbernens.bus@gmail.com.?subject=Coming From Your Website" target="_blank">jbernens.bus@gmail.com</a></h5>
+                <h3>Download either the Word Doc. file or the PDF version</h3>
+                <h3>Fill out the form and attach it to your email</h3>
+                <h3>Send email to <a href="mailto:jbernens.bus@gmail.com.?subject=Coming From Your Website" target="_blank">jbernens.bus@gmail.com</a></h3>
                 <div className="downloadBox">
                     <a href="/registration_form.pdf" download><img className="download" src="/download.png"/></a>
                     <a href="/registration_form.docx" download><img className="download" src="/word_doc.ico"/></a>
                     <h3>Download Course<br/>Registration Form</h3>
                 </div>
                 <div className="downloadBox">
-                <a href="/tutor_form.pdf" download><img className="download" src="/download.png"/></a>
+                <a href="/tutoring
+                _form.pdf" download><img className="download" src="/download.png"/></a>
                     <a href="/tutor_form.docx" download><img className="download" src="/word_doc.ico"/></a>
                     <h3>Download Tutor<br/>Availability Form</h3>
                 </div>
@@ -28,7 +29,6 @@ const Contact = () => {
             </div>
             <div >
                 <h2>Contact Information</h2>
-                
                 <div className="contactContainer2">
                     <div className="contactContainerLi">
                         <img className="contactIcon" src="./location.png"></img>
@@ -47,8 +47,7 @@ const Contact = () => {
                         <a href="mailto:jbernens.bus@gmail.com.?subject=Coming From Your Website" target="_blank"><h3 className="downloadColor">jbernens.bus@gmail.com</h3></a>
                     </div>
                     <br></br>
-                    <br></br>
-                    
+                    <br></br> 
                 </div>
             </div>
         </div>

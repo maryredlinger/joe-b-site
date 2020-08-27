@@ -13,7 +13,7 @@ const NavBar = () => {
                     <NavItem className="">
                         <Link href="/about" className="colorWhite">About</Link>
                     </NavItem>
-                    <NavDropdown className="colorWhite" title="Offerings">
+                    <NavDropdown className="" title="Offerings">
                         <NavDropdown.Item href="/classes">Classes</NavDropdown.Item>
                         <NavDropdown.Item href="/tutoring">Tutoring</NavDropdown.Item>
                     </NavDropdown>

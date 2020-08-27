@@ -31,7 +31,7 @@ const Tutoring = () => {
                         <h4 className="coursesText2">✓ Reading Skills</h4>
                     </div>
                 </div>
-                   <br></br><h2>Private tutoring costs $35 / hour</h2><h6>**Sibling Discount Available**</h6><Link href="/contact"><button className="btn btn-primary">Contact Me for Availability</button></Link>
+                   <br></br><h2>$35 / hour</h2><h6>**Sibling Discount Available**</h6><Link href="/contact"><button className="btn btn-primary">Contact Me for Availability</button></Link>
                 </div>
             </div>
             <div id="9-12" >
@@ -52,7 +52,7 @@ const Tutoring = () => {
                         <h4 className="coursesText2">✓ Test Preparation</h4>
                     </div>
                 </div>
-                   <br></br><h2>Private tutoring costs $50 / hour</h2><h6>**Sibling Discount Available**</h6><Link href="/contact"><button className="btn btn-primary">Contact Me for Availability</button></Link>
+                   <br></br><h2>$50 / hour</h2><h6>**Sibling Discount Available**</h6><Link href="/contact"><button className="btn btn-primary">Contact Me for Availability</button></Link>
                 </div>
             </div>
 
