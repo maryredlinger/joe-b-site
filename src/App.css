@@ -224,7 +224,8 @@ div.transbox {
 }
 
 .classesBox{
-  background-color: rgb(41, 41, 41, 0.8);
+  background-color: rgba(252, 251, 255, 0.8);
+  box-shadow: 0px 8px 36px #222;
   margin-right: 20px;
   margin-left: 20px;
   margin-top: 20px;
@@ -236,7 +237,7 @@ div.transbox {
 }
 
 .classesText{
-  color: white;
+  color: black;
 }
 
 .topText{
@@ -250,20 +251,14 @@ div.transbox {
   width: 150px;
 }
 
-.classesButton{
-  background-color: rgb(22, 91, 168);
-  border-radius: 25px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-right: 12px;
-  padding-left: 12px;
-}
+
 .semesterText{
-  color: rgba(255, 255, 255, 0.651);
+  color: rgba(10, 10, 10, 0.651);
 }
 
 .coursesBody{
-  background-color: rgb(41, 41, 41, 0.1);
+  background-color: rgba(230, 230, 230, 0.1);
+  box-shadow: 0px 8px 36px #222;
   margin-right: 10px;
   margin-left: 10px;
   margin-bottom: 50px;
@@ -301,28 +296,7 @@ div.transbox {
   flex-wrap: wrap;
 }
 
-.btnStyle {
-  display: block;
-  width: 320px;
-  max-width: 100%;
-  margin: 0 auto;
-  margin-bottom: 0;
-  overflow: hidden;
-  position: relative;
-  transform: translatez(0);
-  text-decoration: none;
-  box-sizing: border-box;
-  font-size: 19px;
-	font-weight: normal;
-	box-shadow: 0 9px 18px rgba(0,0,0,0.2);
-	text-align: center;
-	border-radius: 50px;
-  padding: 26px;
-  color: white;
-  background: #4d79ff;
-  transition: all 0.2s ease-out 0s;
 
-}
 
 .btnTop{
   width: 300px;
@@ -408,4 +382,93 @@ div.transbox {
   }
 }
 
+.fancy-font {
+  font: 8.5vw 'Arizonia', Helvetica, sans-serif;
+  color: #DAA520;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+}
 
+button {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 10px;
+  margin: 5px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  width: 270px;
+}
+
+button[id="button_book"] {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 10px;
+  margin: 5px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  width: 140px;
+  font-size: 10px;
+}
+button[id="button_book"]:hover {
+  color: #404040 !important;
+  font-weight: 400 !important;
+  font-size: 9px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.3s ease 0s;
+}
+
+button[id="bigger_button"] {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 10px;
+  margin: 5px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  width: 270px;
+  height: 60px;
+}
+
+button:hover {
+  color: #404040 !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.3s ease 0s;
+}
+button[id="button_hover"]:hover {
+  color:  #4d79ff !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.3s ease 0s;
+}
+
+button[id="button_hover"] {
+  border: none;
+  background-color: #4d79ff;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 10px;
+  margin: 5px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}

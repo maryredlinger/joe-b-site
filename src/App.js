@@ -13,6 +13,9 @@ import Drama from './pages/Drama.js'
 import StudySkills from './pages/StudySkills.js'
 import Classes from './pages/Classes.js'
 import Tutoring from './pages/Tutoring.js'
+import Credentials from './pages/Credentials.js'
+import Bio from './pages/Bio.js'
+
 
 
 
@@ -27,8 +30,8 @@ function App() {
         <h4>Fully credentialed including Special Ed.</h4>
   </div>*/}
       <div className="headerPad">
-        <h1>Athanasius Academia</h1>
-        <h4>Supporting Families - Educating Children</h4>
+        <h1 className="fancy-font">Athanasius Academia</h1>
+        <h4><b>Supporting Families - Educating Children</b></h4>
       </div>
       <div>
         < NavBar />
@@ -45,6 +48,8 @@ function App() {
             <Route path="/study_skills" exact component={StudySkills} />
             <Route path="/classes" exact component={Classes} />
             <Route path="/tutoring" exact component={Tutoring} />
+            <Route path="/credentials" exact component={Credentials} />
+            <Route path="/bio" exact component={Bio} />
           </Switch>
         </Router>
         <br></br>
@@ -52,6 +57,7 @@ function App() {
             <div className="Footer">
               <h3 className="footerFont"><a href="/">Home</a></h3>
               <h3 className="footerFont"><a href="/about">About</a></h3>
+              <h3 className="footerFont"><a href="/credentials">Credentials</a></h3>
               <h3 className="footerFont"><a href="/contact">Contact</a></h3>
             </div>
             <div className="footer-copyright text-center py-3 ">

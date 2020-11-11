@@ -3,7 +3,7 @@ import '../styles/About.css'
 import { NavLink as Link } from 'reactstrap';
 
 
-const About = () => {
+const Bio = () => {
     return(
         <div className="container">
             < br />
@@ -32,4 +32,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default Bio;

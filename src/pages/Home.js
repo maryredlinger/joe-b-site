@@ -28,16 +28,16 @@ const Home = () => {
                 </div>
                 <div className="col-md-6 col-sm-12 mt-3 mb-3">
                 <br />
-                <Link href="/classes/#introduction"><h4 className="white"><li>Introduction to Literature and Composition</li></h4></Link>
+                <Link href="/classes/#introduction"><h4 className=""><li>Introduction to Literature and Composition</li></h4></Link>
                 
-                <Link href="/classes/#american"><h4 className="white"><li>American Literature</li></h4></Link>
+                <Link href="/classes/#american"><h4 className=""><li>American Literature</li></h4></Link>
                 
                 
             
                 </div>
                 </div>
-                <Link href="/classes"><button href="/classes" className="btn btn-primary ">Learn More</button></Link>
-                <Link href="/contact"><buttonc className="btn btn-primary">Contact Me to Register</buttonc></Link>
+                <Link href="/classes"><button href="/classes" >Learn More</button></Link>
+                <Link href="/contact"><button >Contact Me to Register</button></Link>
             </div>
 
             <h1 className="topText ">Tutoring</h1>
@@ -56,24 +56,25 @@ const Home = () => {
                     </div>
                 </div>
                 */}
-                <h3 className="white">Tutoring offered in multiple subjects and grade levels.</h3>
+                <h3 className="">Tutoring offered in multiple subjects and grade levels.</h3>
                 <br />
-                <Link href="/tutoring"><button className="btn btn-primary ">Learn More</button></Link>
-                <Link href="/contact"><buttonc className="btn btn-primary">Contact Me for Availability</buttonc></Link>
+                <Link href="/tutoring"><button >Learn More</button></Link>
+                <Link href="/contact"><button >Contact Me for Availability</button></Link>
 
             </div>
             
             <br></br>
             <div className="HomeDisplay">
                 <span>
-                    <h3>-Education & Certifications-</h3>
+                    <h3>-About & Credentials-</h3>
                     <Link href="/about"><img src="education.png"></img></Link>
-                    <Link href="/about">View Certifications. →</Link>
+                    <Link href="/about">View About. →</Link>
+                    <Link href="/credentials">View Credentials. →</Link>
                 </span>
                 <span>
                     <h3>-Classes & Tutoring-</h3>
                     <Link><img src="curriculum.png"></img></Link>
-                    <Link href="/classes">View classes. →</Link>
+                    <Link href="/classes">View Classes. →</Link>
                     <Link href="/tutoring">View Tutoring. →</Link>
                 </span>
                 <span>

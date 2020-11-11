@@ -15,14 +15,13 @@ const Contact = () => {
                 <h3>Fill out the form and attach it to your email</h3>
                 <h3>Send email to <a href="mailto:jbernens.bus@gmail.com.?subject=Coming From Your Website" target="_blank">jbernens.bus@gmail.com</a></h3>
                 <div className="downloadBox">
-                    <a href="/registration_form.pdf" download><img className="download" src="/download.png"/></a>
-                    <a href="/registration_form.docx" download><img className="download" src="/word_doc.ico"/></a>
+                    <a href="/Class_Registration.pdf" download><img className="download" src="/download.png"/></a>
+                    <a href="/Class_Registration.docx" download><img className="download" src="/word_doc.ico"/></a>
                     <h3>Download Course<br/>Registration Form</h3>
                 </div>
                 <div className="downloadBox">
-                <a href="/tutoring
-                _form.pdf" download><img className="download" src="/download.png"/></a>
-                    <a href="/tutor_form.docx" download><img className="download" src="/word_doc.ico"/></a>
+                <a href="/Tutor_Interest.pdf" download><img className="download" src="/download.png"/></a>
+                    <a href="/Tutor_Interest.docx" download><img className="download" src="/word_doc.ico"/></a>
                     <h3>Download Tutor<br/>Availability Form</h3>
                 </div>
 

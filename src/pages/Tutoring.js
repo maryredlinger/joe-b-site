@@ -7,10 +7,10 @@ const Tutoring = () => {
             <div className="imgContainer">
                 <img className="coursesImage" src="/tutor.jpg"></img>
                 <div className="btnFlex">
-                <Link href="/tutoring/#k-8"><button className="btnTop btn btn-primary">1st - 6th Grade <br />Private Tutoring</button></Link>
-                <Link href="/tutoring/#9-12"><button className="btn btn-primary btnTop">7th -12th Grade <br />Private Tutoring</button></Link>
+                <Link href="/tutoring/#k-8"><button id="bigger_button">1st - 6th Grade <br />Private Tutoring</button></Link>
+                <Link href="/tutoring/#9-12"><button id="bigger_button">7th -12th Grade <br />Private Tutoring</button></Link>
                 
-                <Link href="/contact"><button className="btnTop btn btn-primary">Contact Me for Availability</button></Link>
+                <Link href="/contact"><button id="bigger_button">Contact Me for Availability</button></Link>
                 </div>
             </div>
             <br></br>
@@ -31,7 +31,7 @@ const Tutoring = () => {
                         <h4 className="coursesText2">✓ Reading Skills</h4>
                     </div>
                 </div>
-                   <br></br><h2>$35 / hour</h2><h6>**Sibling Discount Available**</h6><Link href="/contact"><button className="btn btn-primary">Contact Me for Availability</button></Link>
+                   <br></br><h2>$35 / hour</h2><h6>**Sibling Discount Available**</h6><Link href="/contact"><button id="button_hover">Contact Me for Availability</button></Link>
                 </div>
             </div>
             <div id="9-12" >
@@ -52,7 +52,7 @@ const Tutoring = () => {
                         <h4 className="coursesText2">✓ Test Preparation</h4>
                     </div>
                 </div>
-                   <br></br><h2>$50 / hour</h2><h6>**Sibling Discount Available**</h6><Link href="/contact"><button className="btn btn-primary">Contact Me for Availability</button></Link>
+                   <br></br><h2>$50 / hour</h2><h6>**Sibling Discount Available**</h6><Link href="/contact"><button id="button_hover">Contact Me for Availability</button></Link>
                 </div>
             </div>
 
