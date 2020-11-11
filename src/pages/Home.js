@@ -8,70 +8,71 @@ const Home = () => {
             <div className="imgContainer">
                 <img src="./teacher.jpg" className="HomeImg wrapper"></img>
                 <div className="imgOverlayer overlayer">
-                    <h2 className="homeh2">High School classes starting <br/>September 10, 2020</h2>
-                    {/*<h3 className="homeh3">This school year, I will be offering two High School level Literature classes on Tuesday's & Thursday's beginning September 10, 2020 and ending May 27, 2021</h3>*/}
+                    <h2 className="responsiveText">Mr. Joseph Bernens, M.A. ED</h2>
+                    <h4 className="responsiveText2">Teacher & Tutor for 28+ years</h4>
+                    <h5 className="responsiveText3">Fully credentialed including Special Ed.</h5>
                 </div>
             </div>    
                                   
-            <h1 className="topText"><b>Literature Classes</b></h1>
-            <h4 className=""><b>Meeting on Tuesday's & Thursday's</b></h4>
             <div className="classesBox">
+            <h1 className="topText ">Literature Classes</h1>
+            <h4 className="">Meeting on Tuesdays & Thursdays</h4>
+            <br/>
                 <div className="row">
                 <div className="col-md-6 col-sm-12 mt-3">
                 <h4 className="semesterText">1st Semester</h4>
-                    <h2 className="classesText">September 10, 2020 - December 17, 2020</h2>
+                    <h3 className="classesText">September 10, 2020 - December 17, 2020</h3>
                     <br></br>
-                    <h4 className="semesterText">2nd Semester</h4>
-                    <h2 className="classesText">January 5, 2021 - May 27, 2021</h2>
                 </div>
                 <div className="col-md-6 col-sm-12 mt-3 mb-3">
-                <br />
-                <Link href="/classes/#introduction"><h4 className="white"><li><b>Introduction to Literature and Composition</b></li></h4></Link>
-                <br />
-                <Link href="/classes/#american"><h4 className="white"><li><b>American Literature</b></li></h4></Link>
+                
+                <h4 className="semesterText">2nd Semester</h4>
+                    <h3 className="classesText">January 5, 2021 - May 27, 2021</h3>
                 
                 
             
                 </div>
                 </div>
-                <Link href="/classes"><button href="/classes" className="btn btn-primary ">Learn More</button></Link>
-                <Link href="/contact"><buttonc className="btn btn-primary">Contact Me to Register</buttonc></Link>
+                <Link href="/classes"><button id="button" href="/classes" >Learn More</button></Link>
+                <Link href="/contact"><button id="button" >Contact Me to Register</button></Link>
             </div>
 
-            <h1 className="topText"><b>Tutoring</b></h1>
-            <h4 className=""><b>Year-round for grades 1st - 12th</b></h4>
             <div className="classesBox">
+            <h1 className="topText ">Tutoring</h1>
+            <h4 className="">Year-round for grades 1st - 12th</h4>
+            <br/>
+                {/*
                 <div className="row">
-                <div className="col-md-6 col-sm-12 mt-3">
-                    <h4 className="white coursesText2"><li>English Language Arts</li></h4>
-                    <h4 className="white coursesText2"><li>Reading & Writing</li></h4>
-                    <h4 className="white coursesText2"><li>Math</li></h4>
-                    <h4 className="white coursesText2"><li>Science</li></h4>
+                    <div className="col-md-6 col-sm-12 mt-3">
+                        <h4 className="white coursesText2"><li>English Language Arts</li></h4>
+                        <h4 className="white coursesText2"><li>Reading & Writing</li></h4>
 
+                    </div>
+                    <div className="col-md-6 col-sm-12 mt-3 mb-3">
+                        <h4><li className="white coursesText2">Test Prep & Study Skills</li></h4>
+                        <h4><li className="white coursesText2">And More!</li></h4>
+                    </div>
                 </div>
-                <div className="col-md-6 col-sm-12 mt-3 mb-3">
-                    <h4><li className="white coursesText2">Social Studies</li></h4>
-                    <h4><li className="white coursesText2">Test Prep & Study Skills</li></h4>
-                    <h4><li className="white coursesText2">Acting & Public Speaking</li></h4>
-                    <h4><li className="white coursesText2">Theatre & Drama</li></h4>
-                </div>
-                </div>
-                <Link href="/tutoring"><button className="btn btn-primary ">Learn More</button></Link>
-                <Link href="/contact"><buttonc className="btn btn-primary">Contact Me for Availability</buttonc></Link>
+                */}
+                <h3 className="">Tutoring offered in multiple subjects and grade levels.</h3>
+                <br />
+                <Link href="/tutoring"><button id="button" >Learn More</button></Link>
+                <Link href="/contact"><button id="button" >Contact Me for Availability</button></Link>
 
             </div>
             
             <br></br>
             <div className="HomeDisplay">
                 <span>
-                    <h3>-Education & Certifications-</h3>
+                    <h3>-About & Credentials-</h3>
                     <Link href="/about"><img src="education.png"></img></Link>
-                    <Link href="/about">View Certifications. →</Link>
+                    <Link href="/about">View About. →</Link>
+                    <Link href="/credentials">View Credentials. →</Link>
                 </span>
                 <span>
                     <h3>-Classes & Tutoring-</h3>
                     <Link><img src="curriculum.png"></img></Link>
-                    <Link href="/classes">View classes. →</Link>
+                    <Link href="/classes">View Classes. →</Link>
                     <Link href="/tutoring">View Tutoring. →</Link>
                 </span>
                 <span>
