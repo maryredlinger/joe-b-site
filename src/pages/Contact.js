@@ -1,14 +1,13 @@
 import React from 'react';
 import EmailForm from './EmailForm.js'
+import Email from './Email'
 
 const Contact = () => {
     return(
         <div className="ContactDisplay">
             
             <div className="contactContainer">
-               {/* <h3>Contact Me</h3>
-                <br></br>
-                <EmailForm/>*/}
+                <Email/>{/*
                 <h2>Registering for a Course<br/>or<br/>Tutor Availability</h2>
                 <br/><br/>
                 <h3>Download either the Word Doc. file or the PDF version</h3>
@@ -23,7 +22,7 @@ const Contact = () => {
                 <a href="/Tutor_Interest.pdf" download><img className="download" src="/download.png"/></a>
                     <a href="/Tutor_Interest.docx" download><img className="download" src="/word_doc.ico"/></a>
                     <h3>Download Tutor<br/>Availability Form</h3>
-                </div>
+                </div>*/}
 
             </div>
             <div >
