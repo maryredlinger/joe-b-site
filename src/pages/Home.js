@@ -14,35 +14,33 @@ const Home = () => {
                 </div>
             </div>    
                                   
-            <h1><b>High School classes starting <br/>September 10, 2020</b></h1>
+            <div className="classesBox">
             <h1 className="topText ">Literature Classes</h1>
             <h4 className="">Meeting on Tuesdays & Thursdays</h4>
-            <div className="classesBox">
+            <br/>
                 <div className="row">
                 <div className="col-md-6 col-sm-12 mt-3">
                 <h4 className="semesterText">1st Semester</h4>
                     <h3 className="classesText">September 10, 2020 - December 17, 2020</h3>
                     <br></br>
-                    <h4 className="semesterText">2nd Semester</h4>
-                    <h3 className="classesText">January 5, 2021 - May 27, 2021</h3>
                 </div>
                 <div className="col-md-6 col-sm-12 mt-3 mb-3">
-                <br />
-                <Link href="/classes/#introduction"><h4 className=""><li>Introduction to Literature and Composition</li></h4></Link>
                 
-                <Link href="/classes/#american"><h4 className=""><li>American Literature</li></h4></Link>
+                <h4 className="semesterText">2nd Semester</h4>
+                    <h3 className="classesText">January 5, 2021 - May 27, 2021</h3>
                 
                 
             
                 </div>
                 </div>
-                <Link href="/classes"><button href="/classes" >Learn More</button></Link>
-                <Link href="/contact"><button >Contact Me to Register</button></Link>
+                <Link href="/classes"><button id="button" href="/classes" >Learn More</button></Link>
+                <Link href="/contact"><button id="button" >Contact Me to Register</button></Link>
             </div>
 
+            <div className="classesBox">
             <h1 className="topText ">Tutoring</h1>
             <h4 className="">Year-round for grades 1st - 12th</h4>
-            <div className="classesBox">
+            <br/>
                 {/*
                 <div className="row">
                     <div className="col-md-6 col-sm-12 mt-3">
@@ -58,8 +56,8 @@ const Home = () => {
                 */}
                 <h3 className="">Tutoring offered in multiple subjects and grade levels.</h3>
                 <br />
-                <Link href="/tutoring"><button >Learn More</button></Link>
-                <Link href="/contact"><button >Contact Me for Availability</button></Link>
+                <Link href="/tutoring"><button id="button" >Learn More</button></Link>
+                <Link href="/contact"><button id="button" >Contact Me for Availability</button></Link>
 
             </div>
             

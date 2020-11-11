@@ -3,14 +3,12 @@ body {
   }
 .App {
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
   background-color: white;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .headerPad{
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .App-logo {
@@ -47,6 +45,20 @@ body {
     transform: rotate(360deg);
   }
 }
+.show-read-more .more-text{
+  display: none;
+  width: 50%;
+}
+
+
+#read-more-link{
+  color: blueviolet;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+
 .NavFlex {
   display: flex;
   flex-wrap: wrap;
@@ -74,7 +86,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
 }
 
 
@@ -187,7 +200,7 @@ div.transbox {
   
 }
 .overlayer {
-  height: 150px;
+  height: 120px;
 }
 
 @media screen and (min-width: 48em) {
@@ -226,10 +239,7 @@ div.transbox {
 .classesBox{
   background-color: rgba(252, 251, 255, 0.8);
   box-shadow: 0px 8px 36px #222;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin: 40px;
   padding-top: 35px;
   padding-bottom: 35px;
   padding-right: 15px;
@@ -259,8 +269,8 @@ div.transbox {
 .coursesBody{
   background-color: rgba(230, 230, 230, 0.1);
   box-shadow: 0px 8px 36px #222;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
   margin-bottom: 50px;
   padding-top: 35px;
   padding-bottom: 35px;
@@ -367,12 +377,13 @@ div.transbox {
     font-size: 3vw;
   }
   h5{
-    font-size: 2.25vw;
+    font-size: 3vw;
   }
   .classesBox{
-    background-color: rgb(41, 41, 41, 0.8);
-    margin-right: 5px;
-    margin-left: 5px;
+    background-color: rgba(252, 251, 255, 0.8);
+    box-shadow: 0px 8px 36px #222;
+    margin-right: 20px;
+    margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 50px;
     padding-top: 35px;
@@ -380,6 +391,11 @@ div.transbox {
     padding-right: 15px;
     padding-left: 15px;
   }
+
+  .more{
+    margin: 15px;
+  }
+
 }
 
 .fancy-font {
@@ -388,7 +404,7 @@ div.transbox {
   text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
 }
 
-button {
+button[id="button"] {
   border: none;
   background: #404040;
   color: #ffffff !important;
@@ -441,7 +457,7 @@ button[id="bigger_button"] {
   height: 60px;
 }
 
-button:hover {
+button[id="button"]:hover {
   color: #404040 !important;
   font-weight: 400 !important;
   letter-spacing: 1px;

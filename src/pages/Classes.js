@@ -8,7 +8,7 @@ const Classes = () => {
                 <img className="coursesImage" src="/courses.jpg"></img>
                     <div className="btnFlex">
                         <Link href="/classes/#introduction">
-                            <button >Introduction to <br />Literature and Composition</button>
+                            <button id="button" >Introduction to <br />Literature and Composition</button>
                             </Link>
                         <Link href="/classes/#american">
                             <button id="bigger_button">American Literature</button>

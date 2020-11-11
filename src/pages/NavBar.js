@@ -5,10 +5,10 @@ import { Navbar, NavDropdown } from "react-bootstrap";
 const NavBar = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="/">Home</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Toggle id="hamburger" aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="hamburger">
           <Nav className="Navflex">
             <NavItem className="">
               <Link href="/about" className="colorWhite">
@@ -30,8 +30,8 @@ const NavBar = () => {
               </Link>
             </NavItem>
             <NavItem className="">
-              <Link href="/bio" className="colorWhite">
-                Bio
+              <Link href="/biography" className="colorWhite">
+                Biography
               </Link>
             </NavItem>
           </Nav>
