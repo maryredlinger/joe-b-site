@@ -392,6 +392,13 @@ div.transbox {
     padding-left: 15px;
   }
 
+  iframe{
+    position: relative;
+    overflow: hidden; 
+    max-width: 100%; 
+    height: auto; 
+  }
+
   .more{
     margin: 15px;
   }
@@ -752,3 +759,7 @@ ul {
     top: 3px;
   }
 }
+
+#vimeo{
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;}
