@@ -46,41 +46,52 @@ const Bio = () => {
           </div>
           <br />
           <div className=" col-md-7 col-sm-12 mt-3 mb-3">
-              <div className="more">
-            <h5 className="show-read-more itemExp">
-              I am a parishioner at St. Therese Catholic Church. I am a Husband,
-              Father, and family member. I am a loyal friend. And I am a proud
-              American. I am Joseph Bernens. Born in Riverside, CA, May 24,
-              1962, we moved to San Diego in 1968 after my father retired from
-              the Air Force. There, I attended St. Therese Academy, St.
-              Augustine High School, and the University of San Diego, where I
-              earned a B.A. in Philosophy in 1984.
-              <br />
-              <br />
-              I worked in the family restaurant business before going back to
-              school to earn a teaching credential in English with an emphasis
-              in Drama in 1990, from San Diego State University. In 1999, I
-              completed an M. A. in Special Education at San Diego State,
-              earning a special education credential in Learning Handicaps.
-              Currently, I am at Franciscan School of Theology working towards
-              an MTS degree.
-            </h5>
-            
-            <div className="itemExp">
-              {readMore && extraContent}
-              <a
-                id="read-more-link"
-                onClick={() => {
-                  setReadMore(!readMore);
-                }}
-              >
-                {linkName}
-              </a>
-            </div>
+            <div className="more">
+              <h5 className="show-read-more itemExp">
+                I am a parishioner at St. Therese Catholic Church. I am a
+                Husband, Father, and family member. I am a loyal friend. And I
+                am a proud American. I am Joseph Bernens. Born in Riverside, CA,
+                May 24, 1962, we moved to San Diego in 1968 after my father
+                retired from the Air Force. There, I attended St. Therese
+                Academy, St. Augustine High School, and the University of San
+                Diego, where I earned a B.A. in Philosophy in 1984.
+                <br />
+                <br />I worked in the family restaurant business before going
+                back to school to earn a teaching credential in English with an
+                emphasis in Drama in 1990, from San Diego State University. In
+                1999, I completed an M. A. in Special Education at San Diego
+                State, earning a special education credential in Learning
+                Handicaps. Currently, I am at Franciscan School of Theology
+                working towards an MTS degree.
+              </h5>
+
+              <div className="itemExp">
+                {readMore && extraContent}
+                <a
+                  id="read-more-link"
+                  onClick={() => {
+                    setReadMore(!readMore);
+                  }}
+                >
+                  {linkName}
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <iframe
+        src="https://player.vimeo.com/video/478248192"
+        width="340"
+        height="600"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen
+      ></iframe>
+      <p>
+        <a href="https://vimeo.com/user126908690">Joe Bernens</a> on{" "}
+        <a href="https://vimeo.com">Vimeo</a>.
+      </p>
     </div>
   );
 };
