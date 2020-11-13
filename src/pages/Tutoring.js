@@ -1,11 +1,11 @@
 import React from 'react'
-import { Nav, NavItem, NavLink as Link } from 'reactstrap';
+import { NavLink as Link } from 'reactstrap';
 
 const Tutoring = () => {
     return(
         <div>
             <div className="imgContainer">
-                <img className="coursesImage" src="/tutor.jpg"></img>
+                <img alt="coursesImage" className="coursesImage" src="/tutor.jpg"></img>
                 <div className="btnFlex">
                 <Link href="/tutoring/#k-8"><button id="bigger_button">1st - 6th Grade <br />Private Tutoring</button></Link>
                 <Link href="/tutoring/#9-12"><button id="bigger_button">7th -12th Grade <br />Private Tutoring</button></Link>

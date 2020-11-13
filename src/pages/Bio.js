@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/About.css";
-import { NavLink as Link } from "reactstrap";
-import $ from "jquery";
+import { NavLink as Link } from 'reactstrap';
+
 
 const Bio = () => {
   const [readMore, setReadMore] = useState(false);
@@ -36,7 +36,7 @@ const Bio = () => {
       <div>
         <div className="row">
           <div className="col-md-4 col-sm-12 mt-3">
-            <img className="profileImg" src="./headshot.JPG" />
+            <img alt="headShot" className="profileImg" src="./headshot.JPG" />
             <br />
             <br />
             <h1 className="blue2">
@@ -67,31 +67,32 @@ const Bio = () => {
 
               <div className="itemExp">
                 {readMore && extraContent}
-                <a
+                <Link
                   id="read-more-link"
                   onClick={() => {
                     setReadMore(!readMore);
                   }}
                 >
                   {linkName}
-                </a>
+                </Link>
               </div>
             </div>
           </div>
         </div>
+        <iframe
+          src="https://player.vimeo.com/video/478248192"
+          width="340"
+          height="600"
+          title="Vimeo Intro"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+        <p>
+          <a href="https://vimeo.com/user126908690">Joe Bernens</a> on{" "}
+          <a href="https://vimeo.com">Vimeo</a>.
+        </p>
       </div>
-      <iframe
-        src="https://player.vimeo.com/video/478248192"
-        width="340"
-        height="600"
-        frameborder="0"
-        allow="autoplay; fullscreen"
-        allowfullscreen
-      ></iframe>
-      <p>
-        <a href="https://vimeo.com/user126908690">Joe Bernens</a> on{" "}
-        <a href="https://vimeo.com">Vimeo</a>.
-      </p>
     </div>
   );
 };
