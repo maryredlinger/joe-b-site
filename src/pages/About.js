@@ -1,7 +1,5 @@
 import React from 'react';
 import '../styles/About.css'
-import { NavLink as Link } from 'reactstrap';
-
 
 const About = () => {
     return(

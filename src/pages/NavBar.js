@@ -7,8 +7,8 @@ const NavBar = () => {
     <div>
       <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="/">Home</Navbar.Brand>
-        <Navbar.Toggle id="hamburger" aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="hamburger">
+        <Navbar.Toggle  aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse >
           <Nav className="Navflex">
             <NavItem className="">
               <Link href="/about" className="colorWhite">
@@ -20,7 +20,7 @@ const NavBar = () => {
                 Credentials
               </Link>
             </NavItem>
-            <NavDropdown className="" title="Offerings">
+            <NavDropdown className="white" title="Offerings">
               <NavDropdown.Item href="/classes">Classes</NavDropdown.Item>
               <NavDropdown.Item href="/tutoring">Tutoring</NavDropdown.Item>
             </NavDropdown>

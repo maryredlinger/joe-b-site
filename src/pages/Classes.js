@@ -1,11 +1,11 @@
 import React from 'react'
-import { Nav, NavItem, NavLink as Link } from 'reactstrap';
+import { NavLink as Link } from 'reactstrap';
 
 const Classes = () => {
     return(
         <div>
             <div className="imgContainer">
-                <img className="coursesImage" src="/courses.jpg"></img>
+                <img alt="coursesImage" className="coursesImage" src="/courses.jpg"></img>
                     <div className="btnFlex">
                         <Link href="/classes/#introduction">
                             <button id="button" >Introduction to <br />Literature and Composition</button>
